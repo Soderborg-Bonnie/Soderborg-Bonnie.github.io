@@ -1,11 +1,14 @@
 /* CIT 230 - Assignment Portal CSS */
 
-  { margin: 0; box-sizing: border-box;} 
+    {
+    margin: 0;
+    box-sizing: border-box;
+}
 
-body { 
-    font-size: 16px; 
+body {
+    font-size: 16px;
     line-height: 32px;
-    font-family:  Avant Garde, sans-serif;
+    font-family: Avant Garde, sans-serif;
     color: black;
 }
 
@@ -21,30 +24,37 @@ h2 {
     color: #010101;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: auto
+    max-width: 960px;
 }
 
-header, footer, footer a {
+header,
+footer,
+footer a {
     text-align: center;
     background-color: #735b89;
     color: white;
 }
-main {
+
+/*main {
     background-color: #b5b5b5;
-}
+}*/
+
 header img {
     width: auto;
     height: auto;
     float: right;
 }
+
 ul {
     list-style-position: inside;
     text-align: center;
 }
 
 footer {
-    font-size: .8rem;
+    font-size: .7rem;
 }
