@@ -1,9 +1,6 @@
 /* CIT 230 - Assignment Portal CSS */
-
-    {
-    margin: 0;
-    box-sizing: border-box;
-}
+/* * is a wildcard referring to all elements */
+   * {margin: 0; box-sizing: border-box;}
 
 body {
     font-size: 16px;
@@ -53,7 +50,7 @@ header img {
 
 ul {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
