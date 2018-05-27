@@ -1,0 +1,159 @@
+/* imported google fonts css style links */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*main font---changed to Noto Sans because Gill Sans is not an open source Google font*/
+    font-size: 15px;
+    font-family: "Noto Sans", Arial, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+header h1,
+h2,
+h3 {
+
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    margin: auto;
+}
+
+header .subheading {}
+
+nav {
+    display: none;
+}
+
+nav button {}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    /*headings changed to Fredoka because Bodoni's not an open source Google font*/
+    font-family: "Fredoka One", "Lucida Bright", cursive;
+    font-size: 1.2em;
+    display: inline;
+
+}
+
+nav ul li a {
+    color: #006992;
+    line-height: 3em;
+    text-decoration: none;
+    padding: 1em
+}
+
+nav ul li.active a {
+    color: #79B791;
+    line-height: 3em;
+    text-decoration: none;
+    padding: 1em
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #73D2DE
+}
+
+
+
+.forecast {
+    display: none;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #79B791;
+}
+
+main figure {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main figure img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+
+}
+
+main picture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.article img {
+    width: 300px;
+    margin: 2em;
+}
+
+.town-article {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.contact {
+    font-size: 90%;
+    padding: .5em;
+    margin-top: 10em;
+
+
+}
+
+.footer-bar {
+    padding-top: .6em;
+    font-size: 75%;
+    background-color: #006992;
+    color: white;
+
+}

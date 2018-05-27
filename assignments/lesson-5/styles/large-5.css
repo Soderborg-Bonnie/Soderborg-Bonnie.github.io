@@ -1,0 +1,76 @@
+@media only screen and (min-width: 64em) {
+    header {
+        width: 960px;
+    }
+    header img {
+        width: 70%;
+        margin: auto;
+    }
+    main figure {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main figure img {
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+
+    .current {
+        width: 160px;
+        float: right;
+        margin-top: -100px;
+    }
+
+    .minMax {
+        width: 160px;
+        float: right;
+        margin-top: -100px;
+    }
+
+    .conditions {
+        width: 160px;
+        float: right;
+        margin-top: -100px;
+    }
+
+    .forecast {
+        display: block;
+        width: 450px;
+        margin: 0 auto;
+    }
+    .forecast,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        border-collapse: collapse;
+    }
+    .forecast,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        border: 1px solid black;
+    }
+
+
+    article img {
+        width: 50%;
+
+    }
+    .town-article {
+        width: 45%;
+        overflow: auto;
+    }
+
+
+
+
+}
