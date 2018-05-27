@@ -69,14 +69,14 @@
 }
 
 article img {
-    width: 45%;
+    width: 300px;
     float: right;
     margin-left: 2em;
     margin-bottom: 2em;
 }
 
 .town-article {
-    width: 300px;
+    width: 45%;
     padding: 2em;
     overflow: auto;
 }
