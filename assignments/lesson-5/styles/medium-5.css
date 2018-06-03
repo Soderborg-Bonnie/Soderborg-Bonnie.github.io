@@ -6,27 +6,31 @@
     }
     nav {
         display: block;
-        margin: 0 auto;
+        margin: auto;
     }
 
     nav ul {
         list-style-type: none;
         margin: auto;
-        padding: .6em;
+        padding: .3em;
     }
     nav ul li {
         display: inline;
         width: 100%;
-        padding: .6em;
+        padding: .3em;
     }
 
     nav ul li a {
         display: inline;
         text-align: center;
-        padding: .6em;
+        padding: .3em;
     }
 
-
+    .weather-summary {
+        width: 400px;
+        margin: 30px;
+        font-size: 100%;
+    }
 
     main figure img {
         display: block;
@@ -43,11 +47,7 @@
     div {
         clear: left;
     }
-    .weather-summary {
-        width: 400px;
-        margin: 30px;
-        font-size: 75%;
-    }
+
     .current {
         width: 160px;
         float: right;

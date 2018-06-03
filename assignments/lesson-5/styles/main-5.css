@@ -8,7 +8,6 @@
 }
 
 body {
-    /*main font---changed to Noto Sans because Gill Sans is not an open source Google font*/
     font-size: 15px;
     font-family: "Noto Sans", Arial, sans-serif;
 }
@@ -24,11 +23,10 @@ footer {
 
 header {
     width: 100%;
+    color: #006992;
 }
 
-#logo {
-    float: left;
-}
+
 
 header h1,
 h2,
@@ -38,8 +36,9 @@ h3 {
 }
 
 header img {
-    width: 100%;
-    margin: auto;
+    width: 100px;
+    padding 10px;
+    float: left;
 }
 
 header .subheading {}
@@ -58,7 +57,6 @@ nav ul {
 }
 
 nav ul li {
-    /*headings changed to Fredoka because Bodoni's not an open source Google font*/
     font-family: "Fredoka One", "Lucida Bright", cursive;
     font-size: 1.2em;
     display: inline;
@@ -66,7 +64,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #006992;
+    color: black;
     line-height: 3em;
     text-decoration: none;
     padding: 1em
@@ -90,7 +88,9 @@ nav ul li a:hover {
 .forecast {
     display: none;
 }
-
+.weather-summary{
+    font-size: 1em;
+}
 table.center {
     margin-left: auto;
     margin-right: auto;
@@ -133,27 +133,24 @@ main picture {
     margin: 2em;
 }
 
-.town-article {
+article{
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    overflow: hidden;
+    margin-left:2em;
+    
 }
 
 
 .contact {
     font-size: 90%;
     padding: .5em;
-    margin-top: 10em;
+    margin: 1em;
 
 
 }
 
 .footer-bar {
-    padding-top: .6em;
+    padding: 1em;
     font-size: 75%;
     background-color: #006992;
     color: white;
-
 }

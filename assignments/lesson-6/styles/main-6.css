@@ -1,0 +1,189 @@
+/* imported google fonts css style links */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+/*site plan colors
+#79B791 med green
+#CDEDFD lt blue
+#006992 dk blue
+#BBBBBB grey
+#73D2DE med blue*/ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Noto Sans", Arial, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+    overflow:hidden;
+}
+
+header {
+    color: #006992;
+    text-align: center;
+    padding: 2em;
+}
+
+header img {
+    max-width: 33%;
+    padding 10px;
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+header .subheading {}
+
+nav {
+    background-color: #006992;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    font-family: "Fredoka One", "Lucida Bright", cursive;
+    font-size: 1em;
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    color: whitesmoke;
+    font-size: 1em;
+    line-height: 3em;
+    text-decoration: none;
+    padding: .8rem 2%;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    color: #79B791;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: #73D2DE;
+}
+
+nav ul.hide{
+    display: none;
+}
+p {margin: 1em}
+main {
+    background-color: #ffffff;
+}
+
+main h2 {
+    color: #79B791;
+    text-align:center;
+}
+
+main figure {
+    width: 100%;
+    
+}
+
+main figure img {
+    width: 100%;
+}
+.content{
+    width:100%
+        
+}
+.minmax{
+    width:33%;
+    float:left;
+    
+}
+.conditions{
+    width:33%;
+    float:left;
+}
+section.forecast{
+    display: none;
+    clear: both;
+}
+section.weather-summary{
+    width:100%;
+    font-size: 1em;
+    padding: 0 1em;
+}
+
+section.weather-summary .current{
+    text-align:center;
+    float:right;
+    margin-top: -2em;
+    width: auto;
+}
+
+.clearfix{
+    clear:both;
+}
+Main figure figcaption{
+    text-align: center;
+    font-size: 1rem;
+}
+.right{
+    width: 100%;
+}
+.left{
+    width: 100%;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-content{
+    padding: 1em;
+    display: inline-block;
+}
+main article{
+    display: block;
+    padding: 0 1em;
+    margin-left:1em;
+}
+main article img{
+    width: 300px;
+    padding: 1em;
+}
+
+.contact {
+    font-size: 90%;
+    padding: .5em;
+    margin: 1em;
+    text-align: center;"
+}
+
+footer section.footer-bar {
+    display: block;
+    padding: 1em;
+    font-size: 75%;
+    background-color: #006992;
+    color: white;
+    text-align: center;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}

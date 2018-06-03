@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Happens | Greater Franklin Area Weather | weather current and forecast | weather stories">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-6.css">
+    <link rel="stylesheet" href="styles/medium-6.css">
+    <link rel="stylesheet" href="styles/large-6.css">
+
+    <title>Local Weather | Weather Happens | Franklin</title>
+
+</head>
+
+<body>
+
+
+    <header>
+        <img src="images/logo.png" alt="Weather Happens logo">
+        <h1>Weather Happens</h1>
+        <h2>Serving the Greater Franklin Area</h2>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="content">
+            <div class="left">
+                <figure>
+                    <img src="images/franklin-small.jpg" alt="Franklin's Fields" sizes="(max-width:500px) 100vw, 50vw" srcset="images/franklin-small.jpg 480w, images/franklin-medium.jpg 720w, images/franklin-large.jpg 1024w">
+                <figcaption>Franklin Fields</figcaption>
+
+                </figure>
+            </div>
+
+            <div class="right">
+
+                <h2>Franklin</h2>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <div class="current">
+                        <picture>
+                            <img src="images/sun2.png" alt="sun icon">
+                        </picture>
+                        <p> Sunny</p>
+                    </div>
+                    <div class="minmax">
+                        <p>High: 78&deg;</p>
+                        <p>Low: 62&deg;</p>
+                    </div>
+                    <div class="conditions">
+                        <p>Precipitation: 0&#37;</p>
+                        <p>Wind Speed: 3mph W</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <table class="center">
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <div class="bottom-content">
+            <article>
+                <h3>Franklin Breaks Record</h3>
+                <div class="right">
+                    <img src="images/river-close300px2.jpg" alt="River Shot">
+                </div>
+                <div class="left">
+                    <p>Lorem ipsum dolor sit amet, pro ei graeco debitis consectetuer. Mea an vivendo instructior. Verterem conceptam ex eos, nec natum perpetua sententiae no. Labores omittantur eum id. Dicat consectetuer eu eam. In quot vituperata appellantur est, at qui dolore alienum deterruisset. <br> Eligendi splendide in usu, his in modus interpretaris. Nostrud molestiae reprimique mel eu. At sea illud pericula comprehensam, legere eripuit quo cu, et has dico dicant ceteros. Nonumy tempor dissentias ne sit, vis noster dicunt instructior eu.<br> Vix labitur petentium in, ex animal eripuit sed. In pri saepe delicata complectitur, homero suscipiantur eu duo. Alii dicit vis an, eu vim aliquid noluisse, ea eius eloquentiam vis. Dico justo invenire ea ius. Ei eos noluisse inciderint, nisl congue conclusionemque ius an, cum nullam molestie eu.
+                    </p>
+                </div>
+                <br>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <section class="contact">
+            <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
+        </section>
+        <section class="footer-bar">
+            <br>&copy;2018 | All Rights Reserved | Weather Happens |
+            <span id="currentdate">Placeholder</span>
+            <h4>___</h4>
+        </section>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+
+</html>

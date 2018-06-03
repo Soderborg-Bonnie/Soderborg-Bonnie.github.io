@@ -1,0 +1,89 @@
+@media only screen and (min-width: 64em) {
+    header {
+        width: 1080px;
+    }
+    header img {
+        margin: auto;
+    }
+    body {
+    font-size: 1.5em;
+    
+}
+    nav{
+background: #006992; 
+background: -moz-linear-gradient(top,  #006992 0%, #7db9e8 100%); 
+background: -webkit-linear-gradient(top,  #006992 0%,#7db9e8 100%);
+background: linear-gradient(to bottom,  #006992 0%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8',GradientType=0 );
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide{
+        display:block;
+    }
+    nav ul{
+        margin: 2%;
+    }
+    
+    nav ul li {
+        float: left;
+        
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
+    .weather-summary {
+        width: 100%;
+        margin: 2em;
+        font-size: 120%;
+    }
+    section.weather-summary .current{
+    float:right;
+    width: 30%;
+    margin: 2em;
+    }
+    .minmax {
+        width: 30%;
+        float: right;
+        margin-top: 2em;
+    }
+
+    .conditions {
+        width: 30%;
+        float: right;
+        margin-top: 2em;
+    }
+
+    main figure img {
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+
+    
+    Main figure figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+}
+    
+   
+    article img {
+        max-width: 100%;
+
+    }
+    .article {
+        
+        
+    }
+
+
+
+
+}

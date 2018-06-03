@@ -1,0 +1,95 @@
+@media only screen and (min-width:37.5em) {
+
+
+
+    body {
+        
+    }
+nav{
+background: #006992; 
+background: -moz-linear-gradient(top,  #006992 0%, #7db9e8 100%); 
+background: -webkit-linear-gradient(top,  #006992 0%,#7db9e8 100%);
+background: linear-gradient(to bottom,  #006992 0%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8',GradientType=0 );
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide{
+        display:block;
+    }
+    nav ul{
+        margin: 2%;
+    }
+    
+    nav ul li {
+        float: left;
+        
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    main figure img {
+        max-width: 300px;
+        float: left;
+    }
+
+    .current {
+        max-width: 150px;
+        float: left;
+    }
+
+    .minmax {
+        max-width: 150px;
+        float: left;
+    }
+    div {
+        clear: left;
+    }
+
+    .conditions {
+        max-width: 150px;
+        
+    }
+    
+clear:both;
+    main figure figcaption {
+        font-size: 1.2rem;
+        
+
+    }
+    main article img {
+        float: right;
+
+    }
+    section.forecast {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .forecast,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        clear: both;
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        margin: 2em;
+    }
+
+    .contact {
+        font-size: 80%;
+        padding: .4em;
+
+    }
+
+}

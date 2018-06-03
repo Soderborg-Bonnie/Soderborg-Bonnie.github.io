@@ -3,12 +3,23 @@
         width: 960px;
     }
     header img {
-        width: 70%;
         margin: auto;
     }
-    main figure {
-        width: 100%;
-        margin: 0 auto;
+    .weather-summary {
+        width: 400px;
+        margin: 30px;
+        font-size: 120%;
+    }
+    .minMax {
+        width: 160px;
+        float: right;
+        margin-top: 2em;
+    }
+
+    .conditions {
+        width: 160px;
+        float: right;
+        margin-top: 2em;
     }
 
     main figure img {
@@ -23,19 +34,7 @@
     .current {
         width: 160px;
         float: right;
-        margin-top: -100px;
-    }
-
-    .minMax {
-        width: 160px;
-        float: right;
-        margin-top: -100px;
-    }
-
-    .conditions {
-        width: 160px;
-        float: right;
-        margin-top: -100px;
+        margin-top: 2em;
     }
 
     .forecast {
