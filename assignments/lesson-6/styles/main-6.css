@@ -33,7 +33,6 @@ header {
 
 header img {
     max-width: 33%;
-    padding 10px;
     float: left;
     margin: 0 2% 0 0;
 }
@@ -98,13 +97,15 @@ main h2 {
     text-align:center;
 }
 
-main figure {
+main picture {
     width: 100%;
     
 }
 
-main figure img {
+main picture img {
     width: 100%;
+    margin: 0;
+    
 }
 .content{
     width:100%
@@ -139,7 +140,7 @@ section.weather-summary .current{
 .clearfix{
     clear:both;
 }
-Main figure figcaption{
+Main picture figcaption{
     text-align: center;
     font-size: 1rem;
 }
@@ -171,7 +172,7 @@ main article img{
     font-size: 90%;
     padding: .5em;
     margin: 1em;
-    text-align: center;"
+    text-align: center;
 }
 
 footer section.footer-bar {

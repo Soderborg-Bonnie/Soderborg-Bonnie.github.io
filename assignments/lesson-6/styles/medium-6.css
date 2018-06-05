@@ -33,8 +33,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', end
         padding: .8rem 1rem;
     }
 
-    main figure img {
-        max-width: 300px;
+    main picture img {
+        max-width: 50%;
         float: left;
     }
 
@@ -55,9 +55,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', end
         max-width: 150px;
         
     }
-    
-clear:both;
-    main figure figcaption {
+ 
+    main picture figcaption {
         font-size: 1.2rem;
         
 
@@ -67,23 +66,26 @@ clear:both;
 
     }
     section.forecast {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
+        display:inline-block;
+        
     }
 
-    .forecast,
+    section.forecast,
     thead,
     tbody,
     th,
     td,
     tr {
+        
+        margin: 0 auto;
         clear: both;
         border: 1px solid black;
         border-collapse: collapse;
         width: 100%;
         text-align: center;
-        margin: 2em;
+        padding: 12px;
+        background-color: #7db9e8;
+        color: whitesmoke;
     }
 
     .contact {

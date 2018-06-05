@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64em) {
     header {
-        width: 1080px;
+        width: 1024px;
     }
     header img {
         margin: auto;
@@ -58,17 +58,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', end
         margin-top: 2em;
     }
 
-    main figure img {
-        display: block;
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
+    main picture img {
+        clear:left;
+        max-width: 100%;
+        
 
     }
 
 
     
-    Main figure figcaption{
+    Main picture figcaption{
     text-align: center;
     font-size: 1.5rem;
 }

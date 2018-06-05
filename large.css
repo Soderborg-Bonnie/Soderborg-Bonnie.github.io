@@ -1,0 +1,21 @@
+@media only screen and (min-width: 64em) {
+    
+    body {
+      font-size: 1.05rem;
+      background:#ccc;
+      max-width:1024px;
+      margin:50px auto;
+      box-shadow:0 0 20px rgba(0,0,0,0.3);
+    }
+    
+    nav ul li {
+      display: inline-block;
+    }
+    
+    nav ul li a {
+      padding:.8em 2em;
+    }
+  
+    .highlow p, .conditions p {margin:10px 0px;}
+    
+  }
