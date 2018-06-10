@@ -1,0 +1,286 @@
+/* imported google fonts css style links */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+/*site plan colors
+#79B791 med green
+#CDEDFD lt blue
+#006992 dk blue
+#BBBBBB grey
+#73D2DE med blue*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Noto Sans", Arial, sans-serif;
+}
+
+
+header,
+nav,
+main,
+footer {
+    max-width: 1230px;
+    
+}
+
+header {
+    color: #006992;
+    display: flex;
+    flex-direction: row;
+    margin: .5em;
+}
+
+.header {
+    flex: 1 1 auto;
+    padding: 15px 15px 0 15px;
+    max-width: 20vw;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+header h1,
+h2 {
+    margin: .25rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header h2 {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #006992;
+    text-align: center;
+    width: 1230px;
+    box-shadow: 0px 3px 3px gray;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: flex;
+    font-family: "Fredoka One", "Lucida Bright", cursive;
+    font-size: 1em;
+    margin: 1em 1em;
+}
+
+nav ul li a {
+    display: flex;
+    color: whitesmoke;
+
+    line-height: 3em;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+nav ul li.active a {
+    color: #79B791;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: #73D2DE;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+p {
+    margin: 1em
+}
+
+main {
+    background-color: #ffffff;
+}
+
+main h2 {
+    display: block;
+    width: 50%;
+    margin: 0;
+    color: #79B791;
+    text-align: center;
+    font-size: 2em;
+}
+
+main figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main figure img {
+    width: 100%;
+    margin: 0;
+    display: block;
+
+}
+
+.headings {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    width: 98%;
+    margin: 1em;
+
+
+}
+
+.grid figure {
+    width: 100%;
+    margin: .1%;
+}
+
+.grid img {
+    width: 100%;
+    padding: .1rem;
+    margin: .1rem;
+}
+
+.grid figcaption {
+    text-align: center;
+    padding: .6rem;
+}
+
+.grid p {
+    text-align: left;
+    font-size: 1em;
+}
+
+
+
+
+
+.conditions {
+    margin: 0 0 .8rem 0;
+}
+
+.current-temp {
+    margin: .2rem 0;
+}
+
+.current-sky {
+    margin: auto 2%;
+}
+
+.weather-summary {
+    width: 100%;
+    font-size: 1em;
+    padding: .1em;
+    margin: 0 1% 0;
+
+}
+
+.weather-summary img {
+    width: 100%;
+    margin: 1rem;
+}
+
+.weather-summary h3 {
+    text-align: center;
+    padding: .2em;
+}
+
+.current {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: .5rem 0 0;
+}
+
+.forecast {
+    display: none;
+
+}
+
+.ten-day-table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.ten-day-table td,
+.ten-day-table th {
+    width: 10%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.bottom-content {
+    padding: 1em;
+    margin: 0 2% 1rem;
+
+}
+
+main article {
+    display: block;
+    padding: 0 1em;
+
+}
+
+main article img {
+    max-width: 300px;
+    padding: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+
+.current-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    font-size: 90%;
+    padding: .5em;
+    margin: 1em;
+    text-align: center;
+}
+
+.footer-bar {
+    padding: 1em;
+    font-size: 75%;
+    background-color: #006992;
+    color: white;
+    text-align: center;
+}
