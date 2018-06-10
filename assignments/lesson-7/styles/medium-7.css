@@ -45,12 +45,13 @@
         padding: .1em;
     }
     .current img {
-        width: 75%;
+        width: 100%;
     }
 
     .current-sky {
         margin: 5% 15% 0 0;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
 
@@ -89,6 +90,7 @@
     main figure img {
         height: 267px;
         object-fit: cover;
+        margin-top: 62px;
     }
 
     .forecast {

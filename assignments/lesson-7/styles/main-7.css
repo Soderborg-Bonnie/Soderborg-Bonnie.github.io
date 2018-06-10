@@ -24,7 +24,7 @@ nav,
 main,
 footer {
     max-width: 1230px;
-    
+
 }
 
 header {
@@ -34,21 +34,14 @@ header {
     margin: .5em;
 }
 
-.header {
-    flex: 1 1 auto;
-    padding: 15px 15px 0 15px;
-    max-width: 20vw;
-}
-
 .headings {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
     align-items: center;
+    justify-content: center;
 }
 
 header h1,
 h2 {
+    justify-content: center;
     margin: .25rem;
 }
 
@@ -130,10 +123,7 @@ main h2 {
     font-size: 2em;
 }
 
-main figure {
-    width: 100%;
-    margin: 0 auto;
-}
+
 
 main figure img {
     width: 100%;
@@ -187,7 +177,11 @@ main figure img {
 
 
 
-
+.current-town {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 .conditions {
     margin: 0 0 .8rem 0;
@@ -257,7 +251,7 @@ main article {
 
 main article img {
     max-width: 300px;
-    padding: 1em;
+
     margin-left: 1em;
     margin-bottom: 1em;
 }

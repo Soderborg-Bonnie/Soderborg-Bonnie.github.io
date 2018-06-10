@@ -25,12 +25,12 @@
         margin: 5px;
     }
     .grid {
-        display:grid;
-        grid-template-columns: 1fr 1f 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         margin: .2em;
     }
-    .grid figure:hover{
-        box-shadow: .6rem .6rem 3rem rgba(0,0,0,0.7);
+    .grid figure:hover {
+        box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
     }
     .weather-summary {
         margin: 0 2% 1rem;
@@ -50,6 +50,7 @@
     }
     .current img {
         margin: 1rem;
+        width: 150px;
     }
     .minmax {
         display: flex;
@@ -63,7 +64,7 @@
     }
     .current-sky {
         margin: 0 1.5rem 0 0;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .current-conditions {
         padding: 2% 0;
@@ -92,7 +93,8 @@
         padding: 0;
     }
     main figure img {
-        width: 960px margin: 75px 100px;
+        width: 960px;
+        margin: 75px 100px;
         margin-top: 1em;
 
     }
@@ -107,6 +109,6 @@
 
     }
     .article {}
-    
-    
+
+
 }
