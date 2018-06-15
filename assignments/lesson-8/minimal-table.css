@@ -14,7 +14,7 @@ table {
     border-collapse: collapse;
     border: 2px solid #e7f0ed;
     font-size: 1rem;
-    box-shadow: 12px 12px 12px gray;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
 }
 
 td,
