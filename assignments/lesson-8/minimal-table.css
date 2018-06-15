@@ -4,6 +4,7 @@
 #e7ffed data rows
 #628ca6
 #7fb9c2
+
 */
 
 html {
@@ -19,7 +20,7 @@ table {
 
 td,
 th {
-    border: 1px solid #e7f0ed;
+    border: 1px solid #bbbbbb;
     padding: 7.5px 7.5px;
 }
 
@@ -50,7 +51,7 @@ tfoot {
     background-color: #7fb9c2;
 }
 
-#dkwhite {
+.dkwhite {
     background-color: #628ca6;
     color: white;
 }
