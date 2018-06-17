@@ -1,0 +1,114 @@
+@media only screen and (min-width: 64em) {
+
+    body {
+        font-size: 2em;
+
+    }
+    header h1 {
+        font-size: 5rem;
+    }
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        background: #006992;
+        background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: -webkit-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 5px;
+        margin: 5px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: .2em;
+    }
+    .grid figure:hover {
+        box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
+    }
+    .weather-summary {
+        margin: 0 2% 1rem;
+        font-size: 120%;
+    }
+    .current-info {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 0;
+
+    }
+    .current {
+        width: 33%;
+        align-items: center;
+        margin: 0;
+        padding: .2rem;
+    }
+    .current img {
+        margin: 1rem;
+        width: 150px;
+    }
+    .minmax {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size: 2rem;
+
+    }
+    .current-sky {
+        margin: 0 1.5rem 0 0;
+        font-size: 3rem;
+    }
+    .current-conditions {
+        padding: 2% 0;
+    }
+    .current-temp {
+        padding: 2% 0;
+        width: 6rem;
+    }
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size: 2rem;
+
+    }
+    #middle {
+        display: block;
+        margin: 0;
+    }
+    main figure {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    main figure img {
+        width: 960px;
+        margin: 75px 100px;
+        margin-top: 1em;
+
+    }
+
+
+
+
+
+
+    article img {
+        width: 100%;
+
+    }
+    .article {}
+
+
+}
