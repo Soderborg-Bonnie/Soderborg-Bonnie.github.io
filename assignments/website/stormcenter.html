@@ -45,7 +45,7 @@
     </div>
 
     <main>
-        <h1>Storm Center</h1>
+        <h1 id="storm">Storm Center</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
@@ -90,12 +90,13 @@
         </label>
 
                 <label class="top">Storm severity
-            <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		<span id="ratingvalue">5</span><br></label>
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" name="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		    <span id="ratingValue">5</span><br>
+            </label>
 
-                <label class="top">Storm region
+            <label class="top">Storm region
             <select name="region">
-            <option selected="true" disable="disabled">Select region</option>
+            <option selected="true" disabled="disabled">Select region</option>
             <option value="Franklin">Franklin</option>
             <option value="Greenville">Greenville</option>
             <option value="Springfield">Springville</option>
@@ -106,7 +107,7 @@
 
             <fieldset>
                 <legend>User in Danger</legend>
-                <div>Danger?</div>
+                <div>Are you in danger?</div>
                 <label class="sbs"><input type="radio" name="user" value="yes">Yes</label>
                 <label class="sbs"><input type="radio" name="user" value="no">No</label>
                 <label class="sbs"><input type="radio" name="user" value="maybe">Maybe</label>
@@ -114,7 +115,7 @@
 
             <fieldset>
                 <legend>Additional information</legend>
-                <label class="top"><textarea rows="10" cols="50" placeholder="Comments"></textarea></label>
+                <label class="top"><textarea rows="15" cols="40" placeholder="Comments"></textarea></label>
             </fieldset>
 
             <input type="submit" value="Report the Storm" class="submitBtn">
@@ -138,6 +139,7 @@
     </footer>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/severity-slider.js"></script>
 
 </body>
 

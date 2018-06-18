@@ -263,6 +263,15 @@ main article img {
     justify-content: center;
     align-items: center;
 }
+form {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
+#storm{
+    text-align: center;
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #006992;
@@ -270,6 +279,8 @@ form fieldset {
     padding: .5rem 2%;   
 }
 form legend {
+    font-size: 1.5rem;
+    font-weight: 700;
     color: #006992;
     margin: 0 1rem;
     padding: 0 .5rem;
@@ -279,7 +290,8 @@ form label.top, form div{
     display: block;
     padding-top: 1rem;
     color: #006992;
-    font-size: .8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 form label.top input, form label.top select {
