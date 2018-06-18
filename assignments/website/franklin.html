@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div id="pageCenter">
     <div class="header">
         <header>
             <img src="images/logo3-225x225.png" alt="Weather Happens logo">
@@ -29,7 +30,7 @@
     </div>
 
 
-    <div class="wrapper">
+    
         <nav>
 
             <button onclick="toggleMenu()">&#9776;</button>
@@ -44,7 +45,7 @@
             </ul>
 
         </nav>
-    </div>
+    
     <main>
         <div id="middle">
             <figure>
@@ -127,9 +128,20 @@
         <div class="bottom-content">
             <article>
                 <h3>Franklin Breaks Record</h3>
-                <img src="images/river-close300px2.jpg" alt="River Shot">
+               
 
+                <picture>
+                    
+                    <source media="(min-width:64em)" srcset="images/riverClose600px.jpg">
+                    <source media="(min-width:37.5em)" srcset="images/riverClose450px.jpg">
+                    <img src="images/riverClose300px.jpg" alt="close up view of river">
+                </picture>
 
+                
+                
+                
+                
+                
                 <p>Lorem ipsum dolor sit amet, pro ei graeco debitis consectetuer. Mea an vivendo instructior. Verterem conceptam ex eos, nec natum perpetua sententiae no. Labores omittantur eum id. Dicat consectetuer eu eam. In quot vituperata appellantur est, at qui dolore alienum deterruisset. <br> Eligendi splendide in usu, his in modus interpretaris. Nostrud molestiae reprimique mel eu. At sea illud pericula comprehensam, legere eripuit quo cu, et has dico dicant ceteros. Nonumy tempor dissentias ne sit, vis noster dicunt instructior eu.<br> Vix labitur petentium in, ex animal eripuit sed. In pri saepe delicata complectitur, homero suscipiantur eu duo. Alii dicit vis an, eu vim aliquid noluisse, ea eius eloquentiam vis. Dico justo invenire ea ius. Ei eos noluisse inciderint, nisl congue conclusionemque ius an, cum nullam molestie eu.
                 </p>
 
@@ -151,6 +163,7 @@
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/windchill.js"></script>
+</div>
 </body>
 
 </html>

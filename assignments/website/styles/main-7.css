@@ -16,14 +16,18 @@
 body {
     font-size: 16px;
     font-family: "Noto Sans", Arial, sans-serif;
+    
 }
-
+#pageCenter{
+    max-width:960px;
+    margin: 0 auto;
+}
 
 header,
 nav,
 main,
 footer {
-    max-width: 1230px;
+    max-width: 960px;
 
 }
 
@@ -54,9 +58,10 @@ header h2 {
 }
 
 nav {
+    display: flex;
     background-color: #006992;
     text-align: center;
-    width: 1230px;
+    width: 960px;
     box-shadow: 0px 3px 3px gray;
 }
 
@@ -70,22 +75,21 @@ nav button {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
 }
 
 nav ul li {
-    display: flex;
+   
     font-family: "Fredoka One", "Lucida Bright", cursive;
     font-size: 1em;
-    margin: 1em 1em;
+    margin: .1em .5em;
 }
 
 nav ul li a {
-    display: flex;
+    
     color: whitesmoke;
-
     line-height: 3em;
     text-decoration: none;
     text-align: center;
@@ -94,7 +98,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    color: #79B791;
+    color: orange;
 }
 
 nav ul li a:hover {
@@ -127,7 +131,6 @@ main h2 {
 
 main figure img {
     width: 100%;
-    margin: 0;
     display: block;
 
 }
@@ -140,9 +143,7 @@ main figure img {
     justify-content: center;
 }
 
-.wrapper {
-    display: flex;
-}
+
 
 .grid {
     display: grid;

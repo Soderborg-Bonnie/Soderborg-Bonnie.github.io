@@ -18,12 +18,12 @@
         background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
     }
-
-    nav ul li a {
-        font-size: 1rem;
-        padding: 5px;
-        margin: 5px;
+nav ul li a {
+        font-size: 1.5rem;
+        padding: 2px;
+        
     }
+    
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -94,7 +94,7 @@
     }
     main figure img {
         width: 960px;
-        margin: 75px 100px;
+        margin: 30px 0px;
         margin-top: 1em;
 
     }
@@ -105,7 +105,7 @@
 
 
     article img {
-        width: 100%;
+        max-width: 600px;
 
     }
     .article {}
