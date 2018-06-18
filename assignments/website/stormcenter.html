@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<div class="header">
+    <div class="header">
         <header>
             <img src="images/logo3-225x225.png" alt="Weather Happens logo">
 
@@ -49,29 +49,32 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                
+                <div class="info">
                 <label class="top">Full Name*
                     <input type="text" name="fullname" pattern="[A-Za-z]{5,20}" required></label>
-                
+                </div>
+                <div class="info">
                 <label class="top">Email*
-                    <input type="email" name="email" placeholder="someone@gmail.com"></label>
-                
+                    <input type="email" name="email" placeholder="somebody@gmail.com"></label>
+                </div>
+                <div class="info">
                 <label class="top">Phone
                     <input type="tel" name="phone" placeholder="8881235555" required></label>
-                
+                </div>
+                <div class="info">
                 <label class="top">Zip Code*
                     <input type="number" name="zip" required></label>
-                
-                
+                </div>
+
             </fieldset>
-            
+
             <fieldset>
                 <legend>Storm Information</legend>
-                 
+
                 <label class="top">Storm date
                 <input type="date" name="stormDate">
                 </label>
-                
+
                 <label class="top">Storm type
                 <input type="text" list="type" name="stormType">
                         <datalist id="type">
@@ -85,12 +88,12 @@
                         </select>
                         </datalist>
         </label>
-                
-        <label class="top">Storm severity
+
+                <label class="top">Storm severity
             <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 		<span id="ratingvalue">5</span><br></label>
-                
-        <label class="top">Storm region
+
+                <label class="top">Storm region
             <select name="region">
             <option selected="true" disable="disabled">Select region</option>
             <option value="Franklin">Franklin</option>
@@ -98,8 +101,8 @@
             <option value="Springfield">Springville</option>
             </select>
         </label>
-            
-        </fieldset>
+
+            </fieldset>
 
             <fieldset>
                 <legend>User in Danger</legend>
@@ -111,7 +114,7 @@
 
             <fieldset>
                 <legend>Additional information</legend>
-                <label class="top"><textarea rows="4" cols="50" placeholder="Comments"></textarea></label>
+                <label class="top"><textarea rows="10" cols="50" placeholder="Comments"></textarea></label>
             </fieldset>
 
             <input type="submit" value="Report the Storm" class="submitBtn">
