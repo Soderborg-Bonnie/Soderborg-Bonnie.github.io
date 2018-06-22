@@ -1,37 +1,40 @@
 {
   "squadName" : "Super hero squad",
-  "homeTown" : "Berlem",
-  "formed" : 2018,
+  "homeTown" : "Metro City",
+  "formed" : 2016,
   "secretBase" : "Super tower",
   "active" : true,
   "members" : [
     {
-      "name" : "Umbrella Man",
-      "age" : 200,
-      "secretIdentity" : "Sveni Scoots",
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
       "powers" : [
-        "Creates magical umbrellas that disappear when rain stops. ",
-        "Remains hidden due to shyness, and surprises unsuspecting people caught in rain storms with umbrella devices that don't need carrying.",
-        
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      "name" : "Zucchini Thumper",
-      "age" : 37,
-      "secretIdentity" : "Jane Zane",
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
       "powers" : [
-        "Mastered the art of zucchini bat thumping",
-        
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      "name" : "Aluminum Spinner",
-      "age" : 100,
-      "secretIdentity" : "Shiny",
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
       "powers" : [
-        "Can extract aluminum and control it's structure.",
-        "Favorite use became spinning aluminum cans around crooks and leaving oversized cans for the police to open.",
-        
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
