@@ -16,14 +16,19 @@
 body {
     font-size: 16px;
     font-family: "Noto Sans", Arial, sans-serif;
+
 }
 
+#pageCenter {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 header,
 nav,
 main,
 footer {
-    max-width: 1230px;
+    max-width: 960px;
 
 }
 
@@ -54,9 +59,10 @@ header h2 {
 }
 
 nav {
+
     background-color: #006992;
-    text-align: center;
-    width: 1230px;
+    text-align: left;
+    width: 960px;
     box-shadow: 0px 3px 3px gray;
 }
 
@@ -66,35 +72,37 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: white;
+
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
+
 }
 
 nav ul li {
-    display: flex;
+
     font-family: "Fredoka One", "Lucida Bright", cursive;
     font-size: 1em;
-    margin: 1em 1em;
+    margin: .1em .5em;
+
 }
 
 nav ul li a {
-    display: flex;
-    color: whitesmoke;
 
+    color: whitesmoke;
     line-height: 3em;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
 
 
 }
 
 nav ul li.active a {
-    color: #79B791;
+    color: orange;
 }
 
 nav ul li a:hover {
@@ -116,18 +124,17 @@ main {
 
 main h2 {
     display: block;
-    width: 50%;
-    margin: 0;
+
+    margin: 0 auto;
     color: #79B791;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 
 
 main figure img {
     width: 100%;
-    margin: 0;
     display: block;
 
 }
@@ -140,8 +147,10 @@ main figure img {
     justify-content: center;
 }
 
-.wrapper {
-    display: flex;
+.iconDescription figure img {
+    width: 100px;
+    height: auto;
+    margin: 0 0 0 2rem;
 }
 
 .grid {
@@ -175,6 +184,41 @@ main figure img {
     font-size: 1em;
 }
 
+
+/*.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    width: 98%;
+    margin: 1em;
+
+
+}
+
+.mainGrid figure {
+    width: 100%;
+    margin: .1%;
+}
+
+.mainGrid img {
+    width: 100%;
+    padding: .1rem;
+    margin: .1rem;
+}
+
+.mainGrid figcaption {
+    text-align: center;
+    padding: .6rem;
+}
+
+.mainGrid p {
+    text-align: left;
+    font-size: 1em;
+}*/
+
+.current-stuff {
+    display: none;
+}
 
 
 .current-town {
@@ -211,6 +255,10 @@ main figure img {
 .weather-summary h3 {
     text-align: center;
     padding: .2em;
+}
+
+.weather-summary {
+    display: none;
 }
 
 .current {
@@ -264,50 +312,63 @@ main article img {
     align-items: center;
 }
 
+form {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
 
-
+#storm {
+    text-align: center;
+}
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #006992;
     border-radius: 10px;
-    padding: .5rem 2%;   
+    padding: .5rem 2%;
 }
+
 form legend {
-    color: #445ba9;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #006992;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
-form label.top, form div{
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #006992;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1 px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
-    width: 100%
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    color: black;
+    width: 100% max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs{
+form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
 }
 
-form input.submitBtn{
+form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #555;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -316,13 +377,13 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
-form label.top input:required{
+form label.top input:required {
     border-left: red solid 6px;
 }
-form label.top input:required:valid{
+
+form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
 
 .contact {
     font-size: 90%;
@@ -332,10 +393,9 @@ form label.top input:required:valid{
 }
 
 .footer-bar {
-    padding: 1em;
+    padding: 2em;
     font-size: 75%;
     background-color: #006992;
     color: white;
     text-align: center;
 }
-wrappper

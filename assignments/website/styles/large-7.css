@@ -34,7 +34,8 @@ nav ul li a {
     }
     .weather-summary {
         margin: 0 2% 1rem;
-        font-size: 120%;
+        font-size: 100%;
+        display: flex;
     }
     .current-info {
         display: flex;

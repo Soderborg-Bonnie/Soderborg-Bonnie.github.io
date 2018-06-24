@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Happens | Greater Franklin Area Weather | weather current and forecast | weather stories">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-7.css">
+    <link rel="stylesheet" href="styles/medium-7.css">
+    <link rel="stylesheet" href="styles/large-7.css">
+
+    <title>Local Weather | Weather Happens | Franklin</title>
+
+</head>
+
+<body>
+    <div id="pageCenter">
+        <div class="header">
+            <header>
+                <img src="images/logo3-225x225.png" alt="Weather Happens logo">
+
+
+                <div class="headings">
+                    <h1>Weather Happens</h1>
+                    <h2>Serving the Greater Franklin Area</h2>
+                </div>
+
+            </header>
+        </div>
+
+
+
+        <nav>
+
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+
+            <section class="mainGrid">
+                <article id="headline">
+                    <img src="images/zoo480x320.jpg" alt="Franklin Zoo">
+
+                    <div class="story"><strong>Wide Eyed Weather</strong><br>The Franklin Zoo is full of activity and wonder as the summer warmth continues and visitors abound. </div>
+                </article>
+            </section>
+            <section class="mainGridL">
+
+                <article class="Franklin">
+                    <img src="images/lacrosse480x320.jpg" alt="hometown lacrosse">
+                    <div class="stuff">
+                        <strong><span id="name1"></span></strong><br>
+                        <strong><span id="motto1"></span></strong><br><br>
+                        <strong>Year founded: <span id="founded1"></span></strong><br>
+                        <strong>Population: <span id="population1"></span></strong><br>
+                        <strong>Annual rainfall: <span id="rainfall1"></span>"</strong>
+                    </div>
+                    <div class="current-stuff">
+                        <span id="events1"></span>
+                    </div>
+                </article>
+                <article class="Greenville">
+                    <img src="images/powell480x320.jpg" alt="waverunning the lake">
+                    <div class="stuff">
+                        <strong><span id="name2"></span></strong><br>
+                        <strong><span id="motto2"></span></strong><br><br>
+                        <strong>Year founded: <span id="founded2"></span></strong><br>
+                        <strong>Population: <span id="population"></span></strong><br>
+                        <strong>Annual rainfall: <span id="rainfall2"></span></strong><br>
+                    </div>
+                    <div class="current-stuff">
+                        <span id="events2"></span>
+                    </div>
+                </article>
+                <article class="Springfield">
+                    <img src="images/hockey480x320.jpg" alt="high school hockey">
+                    <div class="stuff">
+                        <strong><span id="name3"></span></strong><br>
+                        <strong><span id="motto3"></span></strong><br>
+                        <strong>Year founded: <span id="founded3"></span></strong><br>
+                        <strong>Population: <span id="population3"></span></strong><br>
+                        <strong>Annual rainfall: <span id="rainfall3"></span></strong><br>
+                    </div>
+                    <div class="current-stuff">
+                        <span id="events3"></span>
+                    </div>
+
+
+                </article>
+
+            </section>
+        </main>
+
+        <footer>
+            <section class="contact">
+                <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
+            </section>
+            <section class="footer-bar">
+                <br>&copy;2018 | All Rights Reserved | Weather Happens |
+                <span id="currentdate">Placeholder</span>
+                <h6>Town and weather data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></h6>
+            </section>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/towndata.js"></script>
+    </div>
+</body>
+
+</html>

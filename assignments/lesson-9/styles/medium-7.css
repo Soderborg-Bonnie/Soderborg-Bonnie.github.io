@@ -1,0 +1,204 @@
+@media only screen and (min-width:37.5em) {
+
+    body {
+        font-size: 1.5em;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        text-align: center;
+        background: #006992;
+        background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: -webkit-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        text-align: center;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: .1rem;
+
+    }
+
+    section.mainGrid article,
+    .story {
+        padding: 0.65rem;
+
+    }
+    section.weather-summary {
+        max-width: 600px;
+        margin: .5rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    section.mainGrid {
+        max-width: 600px;
+        margin: .5rem auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        padding: 1rem 0;
+    }
+
+    section.mainGrid article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .25rem;
+        justify-content: center;
+        align-items: center;
+        grid-auto-flow: dense;
+    }
+
+    section.mainGrid article:nth-child(odd) > img {
+        grid-column: 2;
+    }
+
+    section.mainGrid img {
+        width: 300px;
+        height: auto;
+    }
+    section.mainGrid article {
+        box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, 0.7);
+    }
+    section.mainGridL article {
+        box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, 0.7);
+    }
+
+
+    section.mainGridL article,
+    .story {
+        padding: 0.65rem;
+
+    }
+
+    section.mainGridL {
+        max-width: 600px;
+        margin: .5rem auto;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    section.mainGridL article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .25rem;
+        justify-content: center;
+        align-items: center;
+        grid-auto-flow: dense;
+    }
+
+    section.mainGridL article:nth-child(even) > img {
+        grid-column: 2;
+    }
+
+    section.mainGridL img {
+        width: 300px;
+        height: auto;
+    }
+
+    .iconDescription figure img {
+        width: 100px;
+        height: auto;
+        margin: 0 0 0 2rem;
+    }
+    .data {}
+
+    .current {
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: .1em;
+    }
+    .current img {
+        width: 100%;
+    }
+
+    .current-sky {
+        margin: 5% 15% 0 0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+
+    .weather-summary {
+        margin: 0;
+        font-size: 1em;
+    }
+    .minmax {
+        width: 50%;
+        margin-left: 55%;
+        margin-top: -4rem;
+        font-size: 1rem;
+    }
+    .conditions {
+        width: 50%;
+        margin-left: 45%;
+        font-size: 1rem;
+
+    }
+    #middle {
+        display: flex;
+        margin: 1rem;
+    }
+    #middle2 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex: 1 1 50%;
+
+    }
+    main figure {
+        width: 45%;
+        margin: .1rem;
+
+    }
+    main figure img {
+        height: 267px;
+        object-fit: cover;
+        margin-top: 62px;
+    }
+
+    .forecast {
+        display: grid;
+        text-align: center;
+    }
+    .forecast,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+
+        border: 1px solid black;
+        background-color: #006992;
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    main article img {
+        float: right;
+        max-width: 450px;
+    }
+    .contact {
+        font-size: 80%;
+        padding: .4em;
+    }
+
+}
