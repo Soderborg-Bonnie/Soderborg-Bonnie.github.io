@@ -185,42 +185,18 @@ main figure img {
 }
 
 
-/*.mainGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-    width: 98%;
-    margin: 1em;
-
-
-}
-
-.mainGrid figure {
-    width: 100%;
-    margin: .1%;
-}
-
-.mainGrid img {
-    width: 100%;
-    padding: .1rem;
-    margin: .1rem;
-}
-
-.mainGrid figcaption {
-    text-align: center;
-    padding: .6rem;
-}
-
-.mainGrid p {
-    text-align: left;
-    font-size: 1em;
-}*/
 
 .current-stuff {
     display: none;
 }
+.stuff{
+    max-width 480px;
+    margin: 10px 10px 25px 25px;
+}
 
-
+.story{
+    margin: 10px 10px 25px 25px;
+}
 .current-town {
     display: flex;
     width: 100%;
@@ -372,7 +348,7 @@ form input.submitBtn {
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2re 2%;
+    margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
 }
@@ -391,11 +367,15 @@ form label.top input:required:valid {
     margin: 1em;
     text-align: center;
 }
-
+a:link {
+    color: whitesmoke;
+}
+    
 .footer-bar {
     padding: 2em;
     font-size: 75%;
     background-color: #006992;
-    color: white;
+    color: whitesmoke;
     text-align: center;
+    
 }
