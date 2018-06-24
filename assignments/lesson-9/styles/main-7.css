@@ -367,9 +367,7 @@ form label.top input:required:valid {
     margin: 1em;
     text-align: center;
 }
-a:link {
-    color: whitesmoke;
-}
+
     
 .footer-bar {
     padding: 2em;
@@ -377,5 +375,7 @@ a:link {
     background-color: #006992;
     color: whitesmoke;
     text-align: center;
-    
+}
+a:link {
+    color: white;
 }
