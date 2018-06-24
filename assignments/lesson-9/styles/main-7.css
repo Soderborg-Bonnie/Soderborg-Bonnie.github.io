@@ -157,15 +157,15 @@ main figure img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
-    width: 98%;
-    margin: 1em;
+    width: 96%;
+    margin:.5em;
 
 
 }
 
 .grid figure {
     width: 100%;
-    margin: .1%;
+    margin: .1rem;
 }
 
 .grid img {
