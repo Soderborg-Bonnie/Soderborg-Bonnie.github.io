@@ -177,16 +177,18 @@
     }
     .current-stuff {
         display: contents;
+        font-size: 1rem;
     }
+.townEvents{
+ list-style-type: none;   
+}
     .story {
         font-size: 1.5rem;
     }
     .stuff {
         font-size: 1rem;
     }
-    .current-stuff {
-        font-size: 1rem;
-    }
+    
     /*code from gallery large css applying to large home page */
     section.mainGridL {
         display: grid;
