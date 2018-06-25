@@ -38,9 +38,7 @@ nav button {
     .grid figure:hover {
         box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
     }
-    .grid p {
-        font-size:1.5rem;
-    }
+   
     section.mainGridL,
     article,
     .story {
