@@ -187,7 +187,8 @@ main figure img {
 
 
 .current-stuff {
-    display: none;
+    display:none;
+    
 }
 .stuff{
     max-width 480px;

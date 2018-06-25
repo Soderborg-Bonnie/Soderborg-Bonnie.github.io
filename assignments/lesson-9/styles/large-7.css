@@ -176,12 +176,10 @@
 
     }
     .current-stuff {
-        display: contents;
+       display: block;
+        color: black;
         font-size: 1rem;
     }
-.townEvents{
- list-style-type: none;   
-}
     .story {
         font-size: 1.5rem;
     }

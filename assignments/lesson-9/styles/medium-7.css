@@ -136,7 +136,10 @@
         font-size: 2rem;
         font-weight: bold;
     }
-
+    .current-stuff {
+    display:none;
+    
+}
 
     .weather-summary {
         margin: 0;
