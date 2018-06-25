@@ -23,7 +23,13 @@
         padding: 2px;
 
     }
-
+nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
+    }
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
