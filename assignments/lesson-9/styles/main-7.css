@@ -101,7 +101,9 @@ nav ul li a {
 
 
 }
-
+.active{
+    color:white;
+}
 nav ul li.active a {
     color: orange;
 }
