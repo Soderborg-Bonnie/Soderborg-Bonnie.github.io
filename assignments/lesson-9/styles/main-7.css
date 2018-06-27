@@ -101,9 +101,7 @@ nav ul li a {
 
 
 }
-.active{
-    color:white;
-}
+
 nav ul li.active a {
     color: orange;
 }
@@ -380,6 +378,6 @@ form label.top input:required:valid {
     color: whitesmoke;
     text-align: center;
 }
-a:link {
+a {
     color: white;
 }
