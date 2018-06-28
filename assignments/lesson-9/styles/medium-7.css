@@ -1,7 +1,7 @@
 @media only screen and (min-width:37.5em) {
 
     body {
-        font-size: 1.5em;
+        font-size: 1rem;
     }
     header h1 {
         font-size: 3rem;
@@ -9,7 +9,6 @@
     header h2 {
         font-size: 1.5rem;
     }
-
     nav {
         text-align: left;
         background: #006992;
@@ -18,33 +17,26 @@
         background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
     }
-    
     nav ul li {
         text-align: center;
-
     }
 
     .grid {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        margin: .1rem;
-
     }
-
-    section.mainGrid article,
-    .story {
-        padding: 0.65rem;
-
-    }
-    section.weather-summary {
+    
+section.weather-summary {
         max-width: 600px;
         margin: .5rem auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
     }
-
-
+    
+    section.mainGrid article,
+    .story {
+        padding: 0.65rem;
+    }
     section.mainGrid {
         max-width: 600px;
         margin: .5rem auto;
@@ -52,7 +44,6 @@
         grid-template-rows: 1fr;
         padding: 1rem 0;
     }
-
     section.mainGrid article {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -61,36 +52,30 @@
         align-items: center;
         grid-auto-flow: dense;
     }
-
     section.mainGrid article:nth-child(odd) > img {
         grid-column: 2;
     }
-
-    section.mainGrid img {
+ section.mainGrid img {
         width: 300px;
         height: auto;
     }
+    
     section.mainGrid article {
         box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, 0.7);
     }
     section.mainGridL article {
         box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, 0.7);
     }
-
-
     section.mainGridL article,
     .story {
-        padding: 0.65rem;
-
+        padding: 1rem;
     }
-
     section.mainGridL {
         max-width: 600px;
         margin: .5rem auto;
         display: grid;
         grid-template-rows: 1fr;
     }
-
     section.mainGridL article {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -98,12 +83,13 @@
         justify-content: center;
         align-items: center;
         grid-auto-flow: dense;
+        width: 100%;
+        margin: 1% auto;
     }
-
     section.mainGridL article:nth-child(even) > img {
         grid-column: 2;
     }
-
+   
     section.mainGridL img {
         width: 300px;
         height: auto;
@@ -114,8 +100,6 @@
         height: auto;
         margin: 0 0 0 2rem;
     }
-    .data {}
-
     .current {
         flex-direction: row-reverse;
         justify-content: center;
@@ -194,7 +178,7 @@
         max-width: 450px;
     }
     .contact {
-        font-size: 80%;
+        font-size: .9rem;
         padding: .4em;
     }
 

@@ -2,8 +2,7 @@
 
     body {
         font-size: 2rem;
-        background-color: #f7ecb9;
-    }
+     }
     header h1 {
         font-size: 5rem;
     }
@@ -21,15 +20,8 @@
     nav ul li a {
         font-size: 1.5rem;
         padding: 2px;
+    }
 
-    }
-    nav button {
-        display: none;
-    }
-    nav ul.hide {
-        display: flex;
-        justify-content: center;
-    }
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -121,9 +113,13 @@
         padding: 0;
     }
     main figure img {
+/*
+        max-width: 100%;
+        margin: 0 auto;
+*/
         width: 960px;
-        margin: 30px 0px;
-        margin-top: 1em;
+        margin: 0px auto;
+        margin-bottom: 20px;
     }
 
     article img {
