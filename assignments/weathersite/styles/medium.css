@@ -40,7 +40,12 @@ section.weather-summary {
         grid-template-columns: 1fr 1fr;
         grid-gap: 2em;
     }
-    
+/*
+     .weather-summary {
+        margin: 0;
+        font-size: 1em;
+    }
+*/
     section.mainGrid article,
     .story {
         padding: 0.65rem;
@@ -108,41 +113,50 @@ section.weather-summary {
         height: auto;
         margin: 0 0 0 2rem;
     }
+/*
     .current {
         flex-direction: row-reverse;
         justify-content: center;
         padding: .1em;
     }
+*/
+/*
     .current img {
         width: 100%;
     }
+*/
 
+/*
     .current-sky {
         margin: 5% 15% 0 0;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
+*/
+/*
     .current-stuff {
     display:none;
     
 }
+*/
 
-    .weather-summary {
-        margin: 0;
-        font-size: 1em;
-    }
+   
+/*
     .minmax {
         width: 50%;
         margin-left: 55%;
         margin-top: -4rem;
         font-size: 1rem;
     }
+*/
+/*
     .conditions {
         width: 50%;
         margin-left: 45%;
         font-size: 1rem;
 
     }
+*/
     #middle {
         display: flex;
         margin: 1rem;

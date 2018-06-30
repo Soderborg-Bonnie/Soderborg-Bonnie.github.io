@@ -30,8 +30,9 @@
     }
 
 
-    section.weather-summary {        max-width: 960px;
-        grid-gap: 6rem;
+    section.weather-summary {        
+        max-width: 960px;
+        grid-gap: 4rem;
     }
 
     
@@ -56,22 +57,29 @@
         margin: .1rem;
     }
     
+/*
     .current-info {
         display: flex;
         flex-direction: row;
         padding: 2rem 0;
 
     }
+*/
+/*
     .current {
         width: 33%;
         align-items: center;
         margin: 0;
         padding: .2rem;
     }
+*/
+/*
     .current img {
         margin: 1rem;
         width: 150px;
     }
+*/
+/*
     .minmax {
         display: flex;
         flex-direction: column;
@@ -82,17 +90,25 @@
         font-size: 2rem;
 
     }
+*/
+/*
     .current-sky {
         margin: 0 1.5rem 0 0;
         font-size: 3rem;
     }
+*/
+/*
     .current-conditions {
         padding: 2% 0;
     }
+*/
+/*
     .current-temp {
         padding: 2% 0;
         width: 6rem;
     }
+*/
+/*
     .conditions {
         display: flex;
         flex-direction: column;
@@ -103,6 +119,7 @@
         font-size: 2rem;
 
     }
+*/
     #middle {
         display: block;
         margin: 0;
@@ -127,11 +144,13 @@
 
     }
 
+/*
     .current-stuff {
         display: block;
         color: black;
         font-size: 1rem;
     }
+*/
     
     .stuff {
         font-size: 1rem;
