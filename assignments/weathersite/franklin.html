@@ -18,14 +18,17 @@
     <div id="pageCenter">
         <div class="header">
             <header>
-                <a href="index.html">
-                <img src="images/logo3-225x225.png" alt="Weather Happens logo">
-                </a>            
+                <picture>
+                    <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                    <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                    <img src="images/logo1-75x75.png" alt="Weather Happens logo">
+                </picture>
+
+
                 <div class="headings">
                     <h1>Weather Happens</h1>
                     <h2>Serving the Greater Franklin Area</h2>
                 </div>
-
             </header>
         </div>
 
@@ -48,11 +51,11 @@
         <main>
             <div id="middle">
                 <figure>
-<!--                    <picture class="cityPic">-->
-                        <source media="(min-width:64em)" srcset="images/pink-flowers-960px.png">
-                        <source media="(min-width:37.5em)" srcset="images/pink-flowers-720px.png">
-                        <img src="images/pink-flowers-480px.png" alt="pink flowers">
-<!--                    </picture>-->
+                    <!--                    <picture class="cityPic">-->
+                    <source media="(min-width:64em)" srcset="images/pink-flowers-960px.png">
+                    <source media="(min-width:37.5em)" srcset="images/pink-flowers-720px.png">
+                    <img src="images/pink-flowers-480px.png" alt="pink flowers">
+                    <!--                    </picture>-->
                 </figure>
 
                 <div id="middle2">
@@ -61,18 +64,21 @@
                     </div>
 
                     <section class="weather-summary">
-                        <div class="tempHumidWind">
-                            <strong>Current temperature: </strong><span id="currentTemp"></span>&deg;F<br>
-                            <strong>Humidity: </strong><span id="humidity"></span>%<br>
-                            <strong>Wind Speed: </strong><span id="windSpeed"></span>mph
-                        </div>
                         <div class="iconDescription">
-                            <strong><span id="weatherDescription"></span></strong>
+                            <div>
+                                <strong><span id="weatherDescription"></span></strong>
+                            </div>
                             <figure>
                                 <img src="#" id="weatherimage" alt="weather icon">
                             </figure>
 
                         </div>
+                        <div class="tempHumidWind">
+                            <strong>Current temperature: </strong><span id="currentTemp"></span>&deg;F<br>
+                            <strong>Humidity: </strong><span id="humidity"></span>%<br>
+                            <strong>Wind Speed: </strong><span id="windSpeed"></span>mph
+                        </div><br><br>
+
 
 
                     </section>
@@ -118,15 +124,15 @@
 
             <div class="bottom-content">
                 <article>
-                    <h3>Franklin Breaks Record</h3>
+                    <h3>Franklin's Fourth Will Be Breezy and Beautiful</h3>
                     <picture>
-                        <source media="(min-width:64em)" srcset="images/riverClose600px.jpg">
-                        <source media="(min-width:37.5em)" srcset="images/riverClose450px.jpg">
-                        <img src="images/riverClose300px.jpg" alt="close up view of river">
+                        <source media="(min-width:64em)" srcset="images/AmericanSpirit600x600.jpg">
+                        <source media="(min-width:37.5em)" srcset="images/AmericanSpirit450x450.jpg">
+                        <img src="images/AmericanSpirit450x450.jpg" alt="close up of American flag">
                     </picture>
-                    <p>Lorem ipsum dolor sit amet, pro ei graeco debitis consectetuer. Mea an vivendo instructior. Verterem conceptam ex eos, nec natum perpetua sententiae no. Labores omittantur eum id. Dicat consectetuer eu eam. In quot vituperata appellantur est, at qui dolore alienum deterruisset. <br> Eligendi splendide in usu, his in modus interpretaris. Nostrud molestiae reprimique mel eu. At sea illud pericula comprehensam, legere eripuit quo cu, et has dico dicant ceteros. Nonumy tempor dissentias ne sit, vis noster dicunt instructior eu.<br> Vix labitur petentium in, ex animal eripuit sed. In pri saepe delicata complectitur, homero suscipiantur eu duo. Alii dicit vis an, eu vim aliquid noluisse, ea eius eloquentiam vis. Dico justo invenire ea ius. Ei eos noluisse inciderint, nisl congue conclusionemque ius an, cum nullam molestie eu.
+                    <p>Duis ut tincidunt neque, vitae interdum est. Proin viverra sodales risus, quis accumsan massa efficitur at. Phasellus eu tempus nunc. In euismod sit amet lectus lacinia fringilla. Phasellus eleifend ex ut elit cursus, et blandit nibh placerat. Cras rutrum turpis ut mollis tempus. Pellentesque tempor ornare ante. Vivamus sagittis risus ac aliquam vehicula. Fusce viverra nisl iaculis condimentum finibus. Ut dictum enim non arcu iaculis imperdiet. Donec enim nisl, scelerisque quis maximus et, semper eget mauris. Aliquam fringilla erat vel odio sollicitudin, ut vestibulum nibh auctor. Donec fringilla purus tellus, et euismod magna varius et.<br><br> Aliquam sit amet porta nunc, eu volutpat tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ultrices imperdiet diam vel tincidunt. Proin auctor varius eleifend. Nulla facilisi. Etiam sed erat quis diam varius tincidunt. Duis sit amet nunc mauris. Nullam laoreet dolor nulla, at tristique ex porta ac. Fusce in est ornare, vestibulum erat ac, ornare erat. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br><br> Vivamus elit magna, mollis nec euismod et, fermentum eget massa. Nam imperdiet eros ac consectetur commodo. Pellentesque magna tortor, rhoncus quis tellus sed, suscipit auctor risus. Suspendisse at facilisis massa, sed congue sapien. Nam ultricies feugiat ante, eget placerat lectus vestibulum non. Aenean interdum volutpat felis, sit amet maximus turpis eleifend quis. Aenean dictum fermentum ligula eget sollicitudin. Aenean eleifend dignissim diam eget interdum. Fusce interdum laoreet nunc ut volutpat. Vivamus efficitur nulla non tortor fermentum, eu posuere ipsum sodales. Pellentesque quam enim, auctor eget porta nec, molestie in odio. Donec luctus varius erat, eget ornare nisi cursus id. Curabitur aliquet justo et lectus ultricies malesuada. Etiam ultrices lacinia neque, et fringilla nunc malesuada bibendum. Phasellus suscipit massa mi, in fringilla velit fermentum eget. Nunc ex ipsum, aliquet eget vehicula id, imperdiet quis nibh.
                     </p>
-                    <br>
+
                 </article>
             </div>
         </main>

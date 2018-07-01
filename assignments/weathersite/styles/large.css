@@ -1,8 +1,8 @@
 @media only screen and (min-width: 64em) {
 
     body {
-        font-size: 2rem;
-     }
+        font-size: 1.5rem;
+    }
     header h1 {
         font-size: 5rem;
     }
@@ -29,13 +29,19 @@
         box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
     }
 
+.bottom-content img {
+        max-width: 600px;
 
-    section.weather-summary {        
+    }
+    section.weather-summary {
         max-width: 960px;
         grid-gap: 4rem;
     }
 
     
+    section.mainGrid {
+        max-width: 960px;
+    }
     section.mainGridL,
     article,
     .story {
@@ -44,82 +50,54 @@
     section.mainGridL {
         max-width: 960px;
     }
+/*
     section.mainGridL article {
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-  section.mainGridL article:nth-child(odd) > img {
+*/
+    
+    section.mainGridL article {
+        display: block;
+    }
+
+/*
+    section.mainGridL article:nth-child(odd) > img {
         grid-column: 2;
     }
-  section.mainGridL img {
+*/
+/*
+    section.mainGridL img {
         width: 100%;
         height: auto;
         padding: .1rem;
         margin: .1rem;
     }
+*/
     
-/*
-    .current-info {
-        display: flex;
-        flex-direction: row;
-        padding: 2rem 0;
+    section.mainGridL{
+/*        width: 960px;*/
+/*        width: 960px;*/
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 2%;
+    }
+    .Franklin{
+       width: 100%;
+       margin: 0 auto;
+        padding: ;
+    }
+    .current-stuff {
+        display: block;
+        color: black;
+        font-size: 1rem;
+    }
 
+    .stuff {
+/*        font-size: .5em;*/
+        text-align: center;
     }
-*/
-/*
-    .current {
-        width: 33%;
-        align-items: center;
-        margin: 0;
-        padding: .2rem;
-    }
-*/
-/*
-    .current img {
-        margin: 1rem;
-        width: 150px;
-    }
-*/
-/*
-    .minmax {
-        display: flex;
-        flex-direction: column;
-        width: 33%;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        font-size: 2rem;
-
-    }
-*/
-/*
-    .current-sky {
-        margin: 0 1.5rem 0 0;
-        font-size: 3rem;
-    }
-*/
-/*
-    .current-conditions {
-        padding: 2% 0;
-    }
-*/
-/*
-    .current-temp {
-        padding: 2% 0;
-        width: 6rem;
-    }
-*/
-/*
-    .conditions {
-        display: flex;
-        flex-direction: column;
-        width: 33%;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        font-size: 2rem;
-
-    }
-*/
+.infoStuff{
+    font-size: .7rem;
+}
     #middle {
         display: block;
         margin: 0;
@@ -130,7 +108,7 @@
         padding: 0;
     }
     main figure img {
-/*
+        /*
         max-width: 100%;
         margin: 0 auto;
 */
@@ -139,19 +117,8 @@
         margin-bottom: 20px;
     }
 
-    article img {
-        max-width: 600px;
-
-    }
-
-    .current-stuff {
-        display: block;
-        color: black;
-        font-size: 1rem;
-    }
     
-    .stuff {
-        font-size: 1rem;
-    }
+
+    
 
 }

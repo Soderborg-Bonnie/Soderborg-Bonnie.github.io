@@ -18,14 +18,17 @@
     <div id="pageCenter">
         <div class="header">
             <header>
-                <a href="index.html">
-                <img src="images/logo3-225x225.png" alt="Weather Happens logo">
-                </a> 
+                <picture>
+                    <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                    <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                    <img src="images/logo1-75x75.png" alt="Weather Happens logo">
+                </picture>
+
+
                 <div class="headings">
                     <h1>Weather Happens</h1>
                     <h2>Serving the Greater Franklin Area</h2>
                 </div>
-
             </header>
         </div>
 
@@ -52,32 +55,32 @@
                 <figure>
                     <img src="images/snow.jpg" alt="snowy mountains">
                     <figcaption>Snowy Mountains</figcaption>
-                   
+
                 </figure>
                 <figure>
                     <img src="images/fall.jpg" alt="snowy mountains">
                     <figcaption>And the leaves fall..</figcaption>
-                    
+
                 </figure>
                 <figure>
                     <img src="images/spring.jpg" alt="snowy mountains">
                     <figcaption>Spring has Sprung</figcaption>
-                   
+
                 </figure>
                 <figure>
                     <img src="images/summer.jpg" alt="snowy mountains">
                     <figcaption>Summer at the Lake</figcaption>
-                    
+
                 </figure>
                 <figure>
                     <img src="images/rainbow.jpg" alt="snowy mountains">
                     <figcaption>Rainbow Bay</figcaption>
-                    
+
                 </figure>
                 <figure>
                     <img src="images/fog.jpg" alt="snowy mountains">
                     <figcaption>Fog Blanket</figcaption>
-                    
+
                 </figure>
             </section>
         </main>
@@ -90,7 +93,7 @@
             <section class="footer-bar">
                 <br>&copy;2018 | All Rights Reserved | Weather Happens |
                 <span id="currentdate">Placeholder</span>
-                <h4>___</h4>
+                <!--                <h4>___</h4>-->
             </section>
         </footer>
         <script src="scripts/currentdate.js"></script>

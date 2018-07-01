@@ -15,9 +15,12 @@
 
 body {
    font-family: "Noto Sans", Arial, sans-serif;
+    background-color: #CDEDFD;
 }
 #pageCenter {
     max-width: 960px;
+    max-width: 2000px;
+/*    min-width: 400px;*/
     margin: 0 auto;
 }
 a {
@@ -29,19 +32,25 @@ nav,
 main,
 footer {
     max-width: 100%;
+/*     box-shadow: 0px 5px 15px gray;*/
 }
 header {
     color: #006992;
+/*    background-color: #faf7d6;*/
+    background-color: white;
     display: flex;
     flex-direction: row;
-    margin: .5rem;
+    justify-content: center;
+    align-items: center;
 }
 .headings {
+/*
     flex: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+*/
 }
 header h1,
 h2 {
@@ -50,16 +59,21 @@ h2 {
 }
 header h1 {
     font-size: 2rem;
+    text-shadow: 1px 1px 3px gray;
 }
 header h2 {
     font-size: 1rem;
 }
 
 nav {
-    background-color: #006992;
     text-align: left;
     max-width: 100%;
-    box-shadow: 0px 3px 3px gray;
+    box-shadow: 0px 3px 5px gray;
+    background: #006992;
+    background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #006992 0%, #7db9e8 100%);
+    background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
 }
 nav button {
     margin: .2rem 2%;
@@ -101,45 +115,45 @@ p {
 }
 
 main {
+    background-color: #faf7d6;
     background-color: #ffffff;
+    background-color: #CDEDFD;
+    max-width: 960px;
+    margin: 0 auto;
+    
 }
 
-main h2 {
+.current-town h2 {
     display: block;
     margin: 0 auto;
     color: #79B791;
     text-align: center;
     font-size: 1.6em;
 }
-main figure img {
+#middle figure img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+   
 }
-/*
-.cityPic{
-    max-width: 100%;
+.iconDescription{
+    text-align: center;
+}
+.iconDescription figure img{
+  width: 100px;
+    display: block;
     margin: 0 auto;
 }
-*/
+.tempHumidWind{
+    text-align: center;
+}
 main article {
     display: block;
-    padding: 0 1em;
-}
-main article img {
-    max-width: 300px;
-
-    margin-left: 1em;
-    margin-bottom: 1em;
+    padding: 0 1rem;
 }
 
 
-.iconDescription figure img {
-    width: 100px;
-    height: auto;
-    margin: 0 0 0 2rem;
-}
-
+/*gallery    */
 .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -161,19 +175,22 @@ main article img {
     padding: .6rem;
 }
 
-
+/*town events*/
 .current-stuff {
     display:none;
     
 }
+/*town data*/
 .stuff {
     max-width: 300px;
     margin: 10px 10px 25px 25px;
 }
+/*home page story*/
 .story{
     max-width: 300px;
     margin: 10px 10px 25px 25px;
 }
+/*
 .current-info {
     display: flex;
     flex-direction: column;
@@ -198,7 +215,8 @@ main article img {
 .current-sky {
     margin: auto 2%;
 }
-
+*/
+/*town page weather*/
 .weather-summary {
     width: 100%;
     font-size: 1em;
@@ -206,26 +224,93 @@ main article img {
     margin: 0 1% 0;
 }
 .weather-summary img {
+    width: 100px;
+    height: auto;
+    margin: 1rem;
+    
+}
+
+.weather-summary {
+    display: block;
+}
+/*
+.iconDescription figure img {
+    width: 100px;
+    height: auto;
+    margin: 0 0 0 0rem;
+}
+*/
+
+/*
+.weather-summary {
+    width: 100%;
+    font-size: 1em;
+    padding: .1em;
+    margin: 0 auto;
+    
+}
+*/
+/*
+.iconDescription{
+    display:block;
+}
+*/
+/*
+#weatherDescription{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+*/
+/*
+#weatherimage{
+    width: 100%;
+    margin: 0 auto;
+}
+*/
+/*
+.iconDescription:{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.iconDescription figure img {
+    width: 100px;
+    height: auto;
+    margin: 0 0 0 2rem;
+    
+   
+}
+*/
+/*    margin: .5rem .5rem .5rem 10rem;*/
+
+/*
+.weather-summary img {
     width: 100%;
     margin: 1rem;
 }
+*/
+/*
 .weather-summary h3 {
     text-align: center;
     padding: .2em;
 }
-.weather-summary {
-    display: none;
-}
+*/
 
+
+/*
 .current {
     display: flex;
     justify-content: center;
     align-content: center;
     padding: .5rem 0 0;
 }
+*/
 
 .forecast {
     display: none;
+/*    box-shadow:0 5px 15px rgba(0,0,0,0.3);*/
 }
 .ten-day-table {
     border: 2px solid black;
@@ -238,18 +323,39 @@ main article img {
     padding: 1rem 0;
 }
 
+/*
 .bottom-content {
-    padding: 1em;
-    margin: 0 2% 1rem;
+    padding: 0;
+    margin: 0 auto;
     font-size: 1rem;
 }
-
-
-#storm {
+*/
+.bottom-content h3{
     text-align: center;
 }
+.bottom-content img{
+    width: 100%;
+    margin:0 auto;
+}
+/*individual city pages*/
+/*
+.bottom-content img {
+    max-width: 100%;
+    margin:0 auto;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+*/
+/*storm form*/
+#storm {
+    text-align: center;
+    background-color: white;
+    width: 45%;
+    margin: 1rem auto;
+}
 form {
-    width: 96%;
+    background-color: white;
+    width: 45%;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
@@ -259,6 +365,7 @@ form fieldset {
     border: 1px solid #006992;
     border-radius: 10px;
     padding: .5rem 2%;
+    padding:
 }
 form legend {
     font-size: 1.5rem;
@@ -282,25 +389,28 @@ form label.top select {
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
-    padding: .75rem;
+    padding: .25rem;
     color: black;
-    width: 100%; max-width: 20rem;
+    width: 100%; max-width: 25rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
+    width: 100%;
 }
 form input.submitBtn {
+/*    max-width: 30rem;*/
     border: none;
-    background-color: #555;
+    background-color: #006992;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
+/*    margin: 0 0 2rem 2%;*/
+    margin: 0 auto;
+    width: 100%;
+    
 }
 form label.top input:required {
     border-left: red solid 6px;
@@ -308,18 +418,28 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
-
+/*contact and footer bar*/
+footer{
+    
+}
 .contact {
     font-size: .9rem;
+/*
     padding: .5rem;
     margin: 1rem;
+*/
     text-align: center;
 }
 .footer-bar {
     padding: 2em;
     font-size: .7rem;
-    background-color: #006992;
+    background: #006992;
+        background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: -webkit-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: linear-gradient(to top, #006992 0%, #7db9e8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
     color: whitesmoke;
     text-align: center;
+    margin: 0 0 1.5rem 0;
+    box-shadow: 0px 3px 5px gray;
 }

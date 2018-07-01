@@ -17,16 +17,19 @@
 <body>
     <div id="pageCenter">
         <div class="header">
-            <header>
-                <a href="index.html">
-                <img src="images/logo3-225x225.png" alt="Weather Happens logo">
-                </a> 
-                <div class="headings">
-                    <h1>Weather Happens</h1>
-                    <h2>Serving the Greater Franklin Area</h2>
-                </div>
+             <header>
+            <picture>
+<source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+<source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+<img src="images/logo1-75x75.png" alt="Weather Happens logo">
+</picture>
+            
 
-            </header>
+            <div class="headings">
+                <h1>Weather Happens</h1>
+                <h2>Serving the Greater Franklin Area</h2>
+            </div>
+        </header>
         </div>
 
 
@@ -49,10 +52,11 @@
             <h1 id="storm">Storm Center</h1>
             <form method="get" action="thanks.html">
                 <fieldset>
+<!--                    <h1 id="storm">Storm Center</h1>-->
                     <legend>Contact Information</legend>
                     <div class="info">
                         <label class="top">Full Name*
-                    <input type="text" name="fullname" pattern="[A-Za-z]{5,20}" required></label>
+                    <input type="text" name="fullname" pattern="[A-Za-z]{5,25}" required></label>
                     </div>
                     <div class="info">
                         <label class="top">Email*
@@ -118,9 +122,9 @@
                     <legend>Additional information</legend>
                     <label class="top"><textarea rows="15" cols="40" placeholder="Comments"></textarea></label>
                 </fieldset>
-
+               
                 <input type="submit" value="Report the Storm" class="submitBtn">
-
+              
             </form>
 
 
@@ -135,7 +139,7 @@
             <section class="footer-bar">
                 <br>&copy;2018 | All Rights Reserved | Weather Happens |
                 <span id="currentdate">Placeholder</span>
-                <h4>___</h4>
+<!--                <h4>___</h4>-->
             </section>
         </footer>
         <script src="scripts/currentdate.js"></script>
