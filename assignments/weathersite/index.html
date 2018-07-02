@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
-    <title>Local Weather | Weather Happens | Franklin</title>
+    <title>Weather Happens | Greater Franklin Area Weather | Home Page</title>
 
 </head>
 
 <body>
     <div id="pageCenter">
-        <!--        <div class="header">-->
+
         <header>
             <picture>
                 <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
@@ -30,11 +30,11 @@
                 <h2>Serving the Greater Franklin Area</h2>
             </div>
         </header>
-        <!--        </div>-->
+
         <nav>
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="franklin.html">Franklin</a></li>
                 <li><a href="greenville.html">Greenville</a></li>
                 <li><a href="springfield.html">Springfield</a></li>
@@ -50,79 +50,82 @@
             <section class="mainGrid">
                 <article id="headline">
                     <img src="images/zoo480x320.jpg" alt="Franklin Zoo">
-
                     <div class="story"><strong>Wide Eyed Weather</strong><br>The Franklin Zoo is full of activity and wonder as the summer warmth continues and visitors abound.
-                    </div>
+                    </div><br>
                 </article>
             </section>
+
             <section class="mainGridL">
+                <article class="oddTown">
+                    <div class="town">
+                        <div class="stuff"><br>
+                            <h3 id="name1"></h3>
+                            <h5 id="motto1"></h5>
+                                <div class="infoStuff">
+                                    <strong>Year founded: <span id="founded1"></span></strong><br>
+                                    <strong>Population: <span id="population1"></span></strong><br>
+                                    <strong>Annual rainfall: <span id="rainfall1"></span>"</strong>
+                                </div>
+                        </div>
+                            <img src="images/lacrosse480x320.jpg" alt="hometown lacrosse">
 
-                <article class="Franklin">
+                        <div class="currentTemp">
 
-                    <div class="stuff">
-                        <h3 id="name1"></h3>
-                        <h5 id="motto1"></h5>
+                        </div>
 
-                        <div class="infoStuff">
-                            <strong>Year founded: <span id="founded1"></span></strong><br>
-                            <strong>Population: <span id="population1"></span></strong><br>
-                            <strong>Annual rainfall: <span id="rainfall1"></span>"</strong>
+
+                        <div class="current-stuff">
+                            <ul>
+                                <li><span id="events1-1"></span></li>
+                                <li><span id="events1-2"></span></li>
+                                <li><span id="events1-3"></span></li>
+                            </ul>
                         </div>
                     </div>
-                    <img src="images/lacrosse480x320.jpg" alt="hometown lacrosse">
-                    <div class="current-stuff">
-                        <ul>
-                            <li><span id="events1-1"></span></li>
-                            <li><span id="events1-2"></span></li>
-                            <li><span id="events1-3"></span></li>
-                        </ul>
-                    </div>
                 </article>
-                <article class="Greenville">
 
-                    <div class="stuff">
-                        <h3 id="name2"></h3>
-                        <h5 id="motto2"></h5>
-
-                        <div class="infoStuff">
-                            <strong>Year founded: <span id="founded2"></span></strong><br>
-                            <strong>Population: <span id="population2"></span></strong><br>
-                            <strong>Annual rainfall: <span id="rainfall2"></span>"</strong>
+                <article class="evenTown">
+                    <div class="town">
+                        <div class="stuff"><br>
+                            <h3 id="name2"></h3>
+                            <h5 id="motto2"></h5>
+                                <div class="infoStuff">
+                                    <strong>Year founded: <span id="founded2"></span></strong><br>
+                                    <strong>Population: <span id="population2"></span></strong><br>
+                                    <strong>Annual rainfall: <span id="rainfall2"></span>"</strong>
+                                </div>
+                        </div>
+                            <img src="images/powell480x320.jpg" alt="waverunning the lake">
+                        <div class="current-stuff">
+                            <ul id="hideMe">
+                                <li><span id="events2-1"></span></li>
+                                <li><span id="events2-2"></span></li>
+                                <li><span id="events2-3"></span></li>
+                            </ul>
                         </div>
                     </div>
-                    <img src="images/powell480x320.jpg" alt="waverunning the lake">
-                    <div class="current-stuff">
-                        <ul id="hideMe">
-                            <li><span id="events2-1"></span></li>
-                            <li><span id="events2-2"></span></li>
-                            <li><span id="events2-3"></span></li>
-                        </ul>
-                    </div>
                 </article>
-                <article class="Springfield">
-
-                    <div class="stuff">
-                        <h3 id="name3"></h3>
-                        <h5 id="motto3"></h5>
-
-                        <div class="infoStuff">
-                            <strong>Year founded: <span id="founded3"></span></strong><br>
-                            <strong>Population: <span id="population3"></span></strong><br>
-                            <strong>Annual rainfall: <span id="rainfall3"></span>"</strong>
+                <article class="oddTown">
+                    <div class="town">
+                        <div class="stuff"><br>
+                            <h3 id="name3"></h3>
+                            <h5 id="motto3"></h5>
+                                <div class="infoStuff">
+                                    <strong>Year founded: <span id="founded3"></span></strong><br>
+                                    <strong>Population: <span id="population3"></span></strong><br>
+                                    <strong>Annual rainfall: <span id="rainfall3"></span>"</strong>
+                                </div>
+                        </div>
+                            <img src="images/hockey480x320.jpg" alt="high school hockey">
+                        <div class="current-stuff">
+                            <ul>
+                                <li><span id="events3-1"></span></li>
+                                <li><span id="events3-2"></span></li>
+                                <li><span id="events3-3"></span></li>
+                            </ul>
                         </div>
                     </div>
-                    <img src="images/hockey480x320.jpg" alt="high school hockey">
-                    <div class="current-stuff">
-                        <ul>
-                            <li><span id="events3-1"></span></li>
-                            <li><span id="events3-2"></span></li>
-                            <li><span id="events3-3"></span></li>
-                        </ul>
-                    </div>
-
-
                 </article>
-
             </section>
         </main>
 
@@ -139,6 +142,10 @@
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/towndata.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/weatherg.js"></script>
+        <script src="scripts/weathers.js"></script>
+        <script src="scripts/wayfinding.js"></script>
     </div>
 </body>
 

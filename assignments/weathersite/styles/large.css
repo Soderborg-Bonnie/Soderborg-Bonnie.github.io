@@ -35,36 +35,91 @@
     }
     section.weather-summary {
         max-width: 960px;
-        grid-gap: 4rem;
+        grid-gap: 1rem;
+        margin: 0 auto;
     }
 
+/*    home page towns, stats, events*/
+section.mainGrid article:nth-child(odd) > img {
+        grid-column: 2;
+    }
+
+    section.mainGrid {
+        /*        display: grid;*/
+        max-width: 960px;
+        margin: .5rem auto;
+        grid-template-rows: 1fr;
+        /*        padding: 1rem 0;*/
+        background-color: white;
+    }
+    section.mainGrid article {
+        display: grid;
+        max-width: 960px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .25rem;
+        justify-content: center;
+        /*        align-content: center;*/
+        align-items: center;
+        grid-auto-flow: dense;
+    }
+
+    section.mainGrid img {
+        width: 450px;
+/*        max-width: 100%;*/
+        /*      height: auto;*/
+    }
     
+    /*
     section.mainGrid {
         max-width: 960px;
     }
+*/
     section.mainGridL,
     article,
     .story {
         font-size: 1.2rem;
     }
+/*
     section.mainGridL {
-        max-width: 960px;
+        width: 100%;
     }
+*/
 /*
     section.mainGridL article {
         grid-template-columns: 1fr 1fr 1fr;
     }
 */
     
+/*
     section.mainGridL article {
         display: block;
     }
-
+*/
 /*
-    section.mainGridL article:nth-child(odd) > img {
-        grid-column: 2;
+    section.mainGridL article {
+
+        grid-template-rows: 1fr 1fr 1fr;
     }
 */
+/*
+    section.mainGridL article:nth-child(odd) > img {
+        grid-row: 2;
+    }
+*/
+/*    *****/
+/*
+    mainGridL img{
+        grid-row: 2;
+        
+    }
+    mainGridL .stuff{
+        grid-row: 1;
+        
+    }
+    
+*/
+/*****/
+    
 /*
     section.mainGridL img {
         width: 100%;
@@ -73,18 +128,48 @@
         margin: .1rem;
     }
 */
-    
+    .mainGridL{
+        display: flex;
+        margin: 0 auto;
+    } 
+    .mainGridL img{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .evenTown{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .oddTown{
+        margin: 0 auto;
+    }
+/*
     section.mainGridL{
-/*        width: 960px;*/
-/*        width: 960px;*/
+        max-width: 960px;
         grid-template-columns: 32% 32% 32%;
         grid-gap: 2%;
     }
-    .Franklin{
-       width: 100%;
-       margin: 0 auto;
-        padding: ;
+*/
+/*
+    section.mainGridL{
+       
+        display: grid;
+        grid-template-columns: repeat(autofit, minmax(240px, 1fr));
+        grid-gap: 2rem;
     }
+*/
+/*
+    section.mainGridL article:nth-child(odd) > img {
+        grid-column: 2;
+    }
+*/
+    .town{
+        width: 100%;
+        
+    }
+  
+    
     .current-stuff {
         display: block;
         color: black;

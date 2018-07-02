@@ -116,8 +116,9 @@ p {
 
 main {
     background-color: #faf7d6;
-    background-color: #ffffff;
     background-color: #CDEDFD;
+    background-color: #ffffff;
+    
     max-width: 960px;
     margin: 0 auto;
     
@@ -147,10 +148,12 @@ main {
 .tempHumidWind{
     text-align: center;
 }
+/*
 main article {
     display: block;
     padding: 0 1rem;
 }
+*/
 
 
 /*gallery    */
@@ -190,6 +193,20 @@ main article {
     max-width: 300px;
     margin: 10px 10px 25px 25px;
 }
+.town img{
+    max-width: 100%;
+}
+/*
+.Springfield img{
+    max-width: 100%;
+}
+.Greenville img{
+    max-width: 100%;
+}
+*/
+#headline img{
+    max-width: 100%;
+}
 /*
 .current-info {
     display: flex;
@@ -197,7 +214,9 @@ main article {
     justify-content: center;
     align-items: center;
 }
+*/
 
+/*
 .current-town {
     display: flex;
     width: 100%;
@@ -222,6 +241,7 @@ main article {
     font-size: 1em;
     padding: .1em;
     margin: 0 1% 0;
+    background-color: white;
 }
 .weather-summary img {
     width: 100px;
@@ -232,6 +252,11 @@ main article {
 
 .weather-summary {
     display: block;
+}
+.thanks {
+    max-width: 960px;
+    text-align: center;
+    padding: 1rem 0 1rem 0rem;
 }
 /*
 .iconDescription figure img {
@@ -323,11 +348,22 @@ main article {
     padding: 1rem 0;
 }
 
-/*
 .bottom-content {
     padding: 0;
     margin: 0 auto;
     font-size: 1rem;
+    background-color: white;
+}
+/*
+.bottom-content{
+    display: block;
+    
+    }
+*/
+/*
+.story{
+    max-width: 450px;
+    background-color: #CDEDFD;
 }
 */
 .bottom-content h3{
@@ -336,6 +372,10 @@ main article {
 .bottom-content img{
     width: 100%;
     margin:0 auto;
+    
+}
+.bottom-content p{
+    padding: 1rem;
 }
 /*individual city pages*/
 /*
