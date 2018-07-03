@@ -18,131 +18,132 @@
     <div id="pageCenter">
         <div class="header">
             <header>
-            <a href="index.html">
-            <picture>
-                <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
-                <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
-                <img src="images/logo1-75x75.png" alt="Weather Happens logo">
-            </picture>
-            </a>
-            <div class="headings">
-                <h1>Weather Happens</h1>
-                <h2>Serving the Greater Franklin Area</h2>
-            </div>
-        </header>
-
-
-        <nav>
-
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="franklin.html">Franklin</a></li>
-                <li><a href="greenville.html">Greenville</a></li>
-                <li><a href="springfield.html">Springfield</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="stormcenter.html">Storm Center</a></li>
-
-            </ul>
-
-        </nav>
-
-        <main>
-            <div id="middle">
-                <figure>
+                <a href="index.html">
                     <picture>
-                        <source media="(min-width:64em)" srcset="images/theFalls1200x800.jpg">
-                        <source media="(min-width:37.5em)" srcset="images/theFalls720x480.jpg">
-                        <img src="images/theFalls480x320.jpg" alt="our beautiful falls">
+                        <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                        <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                        <img src="images/logo1-75x75.png" alt="Weather Happens logo">
                     </picture>
-                </figure>
-
-                <div id="middle2">
-                    <div class="current-town">
-                        <h2>Springfield's Weather</h2>
-                    </div>
-
-                    <section class="weather-summary">
-                        <div class="tempHumidWind">
-                            <strong>Current temperature: </strong><span id="currentTemp"></span>&deg;F<br>
-                            <strong>Humidity: </strong><span id="humidity"></span>%<br>
-                            <strong>Wind Speed: </strong><span id="windSpeed"></span>mph
-                        </div>
-                        <div class="iconDescription">
-                            <strong><span id="weatherDescription"></span></strong>
-                        <img src="#" id="weatherimage" alt="weather icon">
-                        </div>
-                    </section>
+                </a>
+                <div class="headings">
+                    <h1>Weather Happens</h1>
+                    <h2>Serving the Greater Franklin Area</h2>
                 </div>
-            </div>
+            </header>
 
 
-            <section class="forecast">
-                <h3>Ten Day Forecast</h3>
+            <nav>
 
-                <table class="ten-day-table">
-                    <thead>
-                        <tr>
-                            <th>Su</th>
-                            <th>M</th>
-                            <th>T</th>
-                            <th>W</th>
-                            <th>Th</th>
-                            <th>F</th>
-                            <th>Sa</th>
-                            <th>Su</th>
-                            <th>M</th>
-                            <th>T</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>89&deg;F</td>
-                            <td>87&deg;F</td>
-                            <td>78&deg;F</td>
-                            <td>75&deg;F</td>
-                            <td>72&deg;F</td>
-                            <td>72&deg;F</td>
-                            <td>79&deg;F</td>
-                            <td>83&deg;F</td>
-                            <td>85&deg;F</td>
-                            <td>89&deg;F</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="franklin.html">Franklin</a></li>
+                    <li><a href="greenville.html">Greenville</a></li>
+                    <li><a href="springfield.html">Springfield</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+
+                </ul>
+
+            </nav>
+
+            <main>
+                <div id="middle">
+                    <figure>
+                        <picture>
+                            <source media="(min-width:64em)" srcset="images/theFalls1200x800.jpg">
+                            <source media="(min-width:37.5em)" srcset="images/theFalls720x480.jpg">
+                            <img src="images/theFalls480x320.jpg" alt="our beautiful falls">
+                        </picture>
+                    </figure>
+
+                    <div id="middle2">
+                        <div class="current-town">
+                            <h2>Springfield's Weather</h2>
+                        </div>
+
+                        <section class="weather-summary">
+                            <div class="tempHumidWind">
+                                <strong>Current temperature: </strong><span id="currentTemp"></span>&deg;F<br>
+                                <strong>Humidity: </strong><span id="humidity"></span>%<br>
+                                <strong>Wind Speed: </strong><span id="windSpeed"></span>mph
+                            </div>
+                            <div class="iconDescription">
+                                <strong><span id="weatherDescription"></span></strong>
+                                <img src="#" id="weatherimage" alt="weather icon">
+                            </div>
+                        </section>
+                    </div>
+                </div>
 
 
-            <div class="bottom-content">
-                <article>
-                    <h3>Springfield Experiences Record Rain</h3>
-                    <picture>
-                        <source media="(min-width:64em)" srcset="images/floodingInCamp600x600.jpg">
-                        <source media="(min-width:37.5em)" srcset="images/floodingInCamp450x450.jpg">
-                        <img src="images/floodingInCamp300x300.jpg" alt="flooding in camp">
-                    </picture>
-                    <p>Pellentesque malesuada risus eu ultricies consequat. Morbi vel ligula ante. Cras elit risus, cursus sed magna ac, fermentum mattis est. Nam congue nunc pharetra ligula consequat scelerisque. Nullam dapibus nisl sit amet risus interdum gravida. Praesent ac velit eu velit mattis ornare vel nec neque. Proin nec orci neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin accumsan tellus in arcu lacinia mattis. Vivamus hendrerit nisl vel lacus iaculis pharetra. Vestibulum egestas elementum nulla vel pellentesque. Ut tempor felis arcu, ut faucibus orci pellentesque quis. Fusce non sem quam. Integer sed nisi eget nunc faucibus pretium ac non lacus.<br><br> Ut vitae nibh quam. Duis et ligula dui. Cras fermentum libero nec velit venenatis, quis tempus quam convallis. Praesent porttitor risus dui, quis tincidunt risus interdum non. Maecenas feugiat elementum magna, eget tincidunt magna lacinia rhoncus. Praesent auctor, eros sit amet molestie blandit, justo est molestie tortor, nec varius est nunc at mi. Nulla porttitor vel neque ut posuere. Suspendisse eu luctus risus, a interdum nunc. Donec non condimentum lectus, sit amet imperdiet eros. Duis diam dui, sodales at suscipit in, egestas sed nunc. Quisque erat dui, lobortis non leo vitae, ultricies ornare tortor. Donec iaculis ac metus sit amet molestie. In hac habitasse platea dictumst.<br><br> Aliquam erat volutpat. Cras porttitor luctus enim non finibus. Maecenas convallis massa viverra iaculis varius. Proin at pharetra risus. Curabitur egestas vitae orci id rutrum. Proin auctor a ante vel euismod. Proin id turpis convallis, ultrices sapien a, lacinia ante. Mauris pellentesque eu ex sollicitudin scelerisque. Ut eu luctus risus. Vestibulum vehicula aliquet arcu, id feugiat orci mattis in. Phasellus pharetra elit in orci imperdiet, sit amet dictum est ullamcorper.
-                    </p>
+                <section class="forecast">
+                    <h3>Ten Day Forecast</h3>
 
-                    <br>
-                </article>
-            </div>
-        </main>
+                    <table class="ten-day-table">
+                        <thead>
+                            <tr>
+                                <th>Su</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>Th</th>
+                                <th>F</th>
+                                <th>Sa</th>
+                                <th>Su</th>
+                                <th>M</th>
+                                <th>T</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>89&deg;F</td>
+                                <td>87&deg;F</td>
+                                <td>78&deg;F</td>
+                                <td>75&deg;F</td>
+                                <td>72&deg;F</td>
+                                <td>72&deg;F</td>
+                                <td>79&deg;F</td>
+                                <td>83&deg;F</td>
+                                <td>85&deg;F</td>
+                                <td>89&deg;F</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
 
-        <footer>
-            <section class="contact">
-                <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
-            </section>
-            <section class="footer-bar">
-                <br>&copy;2018 | All Rights Reserved | Weather Happens |
-                <span id="currentdate">Placeholder</span>
-                <h6>Town and weather data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></h6>
-            </section>
-        </footer>
-        <script src="scripts/currentdate.js"></script>
-        <script src="scripts/hamburger.js"></script>
-        <script src="scripts/weathers.js"></script>
-        <script src="scripts/wayfinding.js"></script>
+
+                <div class="bottom-content">
+                    <article>
+                        <h3>Springfield Experiences Record Rain</h3>
+                        <picture>
+                            <source media="(min-width:64em)" srcset="images/floodingInCamp600x600.jpg">
+                            <source media="(min-width:37.5em)" srcset="images/floodingInCamp450x450.jpg">
+                            <img src="images/floodingInCamp300x300.jpg" alt="flooding in camp">
+                        </picture>
+                        <p>Pellentesque malesuada risus eu ultricies consequat. Morbi vel ligula ante. Cras elit risus, cursus sed magna ac, fermentum mattis est. Nam congue nunc pharetra ligula consequat scelerisque. Nullam dapibus nisl sit amet risus interdum gravida. Praesent ac velit eu velit mattis ornare vel nec neque. Proin nec orci neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin accumsan tellus in arcu lacinia mattis. Vivamus hendrerit nisl vel lacus iaculis pharetra. Vestibulum egestas elementum nulla vel pellentesque. Ut tempor felis arcu, ut faucibus orci pellentesque quis. Fusce non sem quam. Integer sed nisi eget nunc faucibus pretium ac non lacus.<br><br> Ut vitae nibh quam. Duis et ligula dui. Cras fermentum libero nec velit venenatis, quis tempus quam convallis. Praesent porttitor risus dui, quis tincidunt risus interdum non. Maecenas feugiat elementum magna, eget tincidunt magna lacinia rhoncus. Praesent auctor, eros sit amet molestie blandit, justo est molestie tortor, nec varius est nunc at mi. Nulla porttitor vel neque ut posuere. Suspendisse eu luctus risus, a interdum nunc. Donec non condimentum lectus, sit amet imperdiet eros. Duis diam dui, sodales at suscipit in, egestas sed nunc. Quisque erat dui, lobortis non leo vitae, ultricies ornare tortor. Donec iaculis ac metus sit amet molestie. In hac habitasse platea dictumst.<br><br> Aliquam erat volutpat. Cras porttitor luctus enim non finibus. Maecenas convallis massa viverra iaculis varius. Proin at pharetra risus. Curabitur egestas vitae orci id rutrum. Proin auctor a ante vel euismod. Proin id turpis convallis, ultrices sapien a, lacinia ante. Mauris pellentesque eu ex sollicitudin scelerisque. Ut eu luctus risus. Vestibulum vehicula aliquet arcu, id feugiat orci mattis in. Phasellus pharetra elit in orci imperdiet, sit amet dictum est ullamcorper.
+                        </p>
+
+                        <br>
+                    </article>
+                </div>
+            </main>
+
+            <footer>
+                <section class="contact">
+                    <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
+                </section>
+                <section class="footer-bar">
+                    <br>&copy;2018 | All Rights Reserved | Weather Happens |
+                    <span id="currentdate">Placeholder</span>
+                    <h6>Town and weather data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></h6>
+                </section>
+            </footer>
+            <script src="scripts/currentdate.js"></script>
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/weathers.js"></script>
+            <script src="scripts/wayfinding.js"></script>
+        </div>
     </div>
 </body>
 

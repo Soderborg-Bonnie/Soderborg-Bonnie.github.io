@@ -1,10 +1,10 @@
 @media only screen and (min-width: 64em) {
-/******************************body*/
+    /******************************body*/
     body {
         font-size: 1.5rem;
     }
-    
-/****************************header*/
+
+    /****************************header*/
     header h1 {
         font-size: 5rem;
     }
@@ -12,7 +12,7 @@
         font-size: 2.5rem;
     }
 
-/*******************************nav*/
+    /*******************************nav*/
     nav {
         background: #006992;
         background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
@@ -25,29 +25,29 @@
         padding: 2px;
     }
 
-/***************************gallery*/
+    /***************************gallery*/
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .grid figure:hover {
         box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
     }
-    
-/****************town story & image*/
-.bottom-content img {
+
+    /****************town story & image*/
+    .bottom-content img {
         max-width: 600px;
     }
 
-    
-/*******************weather summary*/
+
+    /*******************weather summary*/
     section.weather-summary {
         max-width: 960px;
         grid-gap: 1rem;
         margin: 0 auto;
     }
 
-/*************************home page*/
-section.mainGrid article:nth-child(odd) > img {
+    /*************************home page*/
+    section.mainGrid article:nth-child(odd) > img {
         grid-column: 2;
     }
 
@@ -70,7 +70,7 @@ section.mainGrid article:nth-child(odd) > img {
     section.mainGrid img {
         width: 450px;
     }
-    
+
     section.mainGridL,
     article,
     .story {
@@ -78,23 +78,23 @@ section.mainGrid article:nth-child(odd) > img {
     }
 
 
-/*****/
+    /*****/
     section.mainGridL {
         max-width: 960px;
         margin: 0 auto;
         display: flex;
         grid-template-rows: 1fr;
-/*        grid-template-columns: 1fr 1fr;*/
+        /*        grid-template-columns: 1fr 1fr;*/
     }
     section.mainGridL article {
-/*        display: grid;*/
-        width:600px;
-        grid-template-columns : 1fr 1fr;
+        /*        display: grid;*/
+        width: 600px;
+        grid-template-columns: 1fr 1fr;
         grid-gap: .25rem;
         justify-content: center;
         align-items: center;
-/*        grid-auto-flow: column dense;*/
-/*        max-width: 100%;*/
+        /*        grid-auto-flow: column dense;*/
+        /*        max-width: 100%;*/
         margin: .5rem auto;
     }
     section.mainGridL article:nth-child(even) > img {
@@ -105,10 +105,10 @@ section.mainGrid article:nth-child(odd) > img {
         max-width: 100%;
         height: auto;
     }
-    
 
-  
-/***********home page towns, stats, events*/    
+
+
+    /***********home page towns, stats, events*/
     .current-stuff {
         display: block;
         color: black;
@@ -118,11 +118,11 @@ section.mainGrid article:nth-child(odd) > img {
     .stuff {
         text-align: center;
     }
-.infoStuff{
-    font-size: .7rem;
-}
-    
-/*********************weather summary*/
+    .infoStuff {
+        font-size: .7rem;
+    }
+
+    /*********************weather summary*/
     #middle {
         display: block;
         margin: 0;
@@ -138,8 +138,8 @@ section.mainGrid article:nth-child(odd) > img {
         margin-bottom: 20px;
     }
 
-    
 
-    
+
+
 
 }
