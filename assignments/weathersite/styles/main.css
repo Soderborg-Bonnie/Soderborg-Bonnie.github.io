@@ -179,10 +179,9 @@ main {
     max-width: 300px;
     margin: 10px 10px 25px 25px;
 }
-.town img{
-    max-width: 100%;
+.mainGridL img{
+  max-width:100%;  
 }
-
 #headline img{
     max-width: 100%;
 }
