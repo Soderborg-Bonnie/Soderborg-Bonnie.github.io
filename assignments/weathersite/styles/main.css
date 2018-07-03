@@ -1,4 +1,4 @@
-/* imported google fonts css style links */
+ imported google fonts css style links 
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
@@ -13,45 +13,38 @@
     box-sizing: border-box;
 }
 
+/********************************body*/
 body {
    font-family: "Noto Sans", Arial, sans-serif;
     background-color: #CDEDFD;
 }
 #pageCenter {
-    max-width: 960px;
     max-width: 2000px;
-/*    min-width: 400px;*/
     margin: 0 auto;
 }
 a {
     color: whitesmoke;
 }
-
+p {
+    margin: 1em
+}
 header,
 nav,
 main,
 footer {
     max-width: 100%;
-/*     box-shadow: 0px 5px 15px gray;*/
 }
+
+/*****************************header*/
 header {
     color: #006992;
-/*    background-color: #faf7d6;*/
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.headings {
-/*
-    flex: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-*/
-}
+
 header h1,
 h2 {
     justify-content: center;
@@ -65,6 +58,7 @@ header h2 {
     font-size: 1rem;
 }
 
+/********************************nav*/
 nav {
     text-align: left;
     max-width: 100%;
@@ -109,21 +103,14 @@ nav ul.hide {
     display: none;
 }
 
-
-p {
-    margin: 1em
-}
-
+/*********************************main*/
 main {
-    background-color: #faf7d6;
-    background-color: #CDEDFD;
     background-color: #ffffff;
-    
     max-width: 960px;
     margin: 0 auto;
-    
 }
 
+/**********************weather summary*/
 .current-town h2 {
     display: block;
     margin: 0 auto;
@@ -133,30 +120,29 @@ main {
 }
 #middle figure img {
     max-width: 100%;
-    display: block;
     margin: 0 auto;
-   
 }
 .iconDescription{
+    display:flex;
+    
+    flex-direction: column;
     text-align: center;
+    text-transform: capitalize;
 }
 .iconDescription figure img{
-  width: 100px;
-    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+/*    display: block;*/
     margin: 0 auto;
 }
+
 .tempHumidWind{
     text-align: center;
 }
-/*
-main article {
-    display: block;
-    padding: 0 1rem;
-}
-*/
 
 
-/*gallery    */
+/*****************************gallery*/
 .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,17 +164,17 @@ main article {
     padding: .6rem;
 }
 
-/*town events*/
+/************************town events*/
 .current-stuff {
     display:none;
-    
 }
-/*town data*/
+
+/**************************town data*/
 .stuff {
     max-width: 300px;
     margin: 10px 10px 25px 25px;
 }
-/*home page story*/
+/********************home page story*/
 .story{
     max-width: 300px;
     margin: 10px 10px 25px 25px;
@@ -196,46 +182,12 @@ main article {
 .town img{
     max-width: 100%;
 }
-/*
-.Springfield img{
-    max-width: 100%;
-}
-.Greenville img{
-    max-width: 100%;
-}
-*/
+
 #headline img{
     max-width: 100%;
 }
-/*
-.current-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-*/
 
-/*
-.current-town {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.conditions {
-    margin: 0 0 .8rem 0;
-}
-
-.current-temp {
-    margin: .2rem 0;
-}
-
-.current-sky {
-    margin: auto 2%;
-}
-*/
-/*town page weather*/
+/******************town page weather*/
 .weather-summary {
     width: 100%;
     font-size: 1em;
@@ -247,7 +199,6 @@ main article {
     width: 100px;
     height: auto;
     margin: 1rem;
-    
 }
 
 .weather-summary {
@@ -258,84 +209,10 @@ main article {
     text-align: center;
     padding: 1rem 0 1rem 0rem;
 }
-/*
-.iconDescription figure img {
-    width: 100px;
-    height: auto;
-    margin: 0 0 0 0rem;
-}
-*/
 
-/*
-.weather-summary {
-    width: 100%;
-    font-size: 1em;
-    padding: .1em;
-    margin: 0 auto;
-    
-}
-*/
-/*
-.iconDescription{
-    display:block;
-}
-*/
-/*
-#weatherDescription{
-    max-width: 100%;
-    margin: 0 auto;
-    
-}
-*/
-/*
-#weatherimage{
-    width: 100%;
-    margin: 0 auto;
-}
-*/
-/*
-.iconDescription:{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.iconDescription figure img {
-    width: 100px;
-    height: auto;
-    margin: 0 0 0 2rem;
-    
-   
-}
-*/
-/*    margin: .5rem .5rem .5rem 10rem;*/
-
-/*
-.weather-summary img {
-    width: 100%;
-    margin: 1rem;
-}
-*/
-/*
-.weather-summary h3 {
-    text-align: center;
-    padding: .2em;
-}
-*/
-
-
-/*
-.current {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: .5rem 0 0;
-}
-*/
 
 .forecast {
     display: none;
-/*    box-shadow:0 5px 15px rgba(0,0,0,0.3);*/
 }
 .ten-day-table {
     border: 2px solid black;
@@ -354,18 +231,7 @@ main article {
     font-size: 1rem;
     background-color: white;
 }
-/*
-.bottom-content{
-    display: block;
-    
-    }
-*/
-/*
-.story{
-    max-width: 450px;
-    background-color: #CDEDFD;
-}
-*/
+
 .bottom-content h3{
     text-align: center;
 }
@@ -377,16 +243,8 @@ main article {
 .bottom-content p{
     padding: 1rem;
 }
-/*individual city pages*/
-/*
-.bottom-content img {
-    max-width: 100%;
-    margin:0 auto;
-    margin-left: 1em;
-    margin-bottom: 1em;
-}
-*/
-/*storm form*/
+
+/**************************storm form*/
 #storm {
     text-align: center;
     background-color: white;
@@ -441,13 +299,11 @@ form label.sbs {
     width: 100%;
 }
 form input.submitBtn {
-/*    max-width: 30rem;*/
     border: none;
     background-color: #006992;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-/*    margin: 0 0 2rem 2%;*/
     margin: 0 auto;
     width: 100%;
     
@@ -458,16 +314,13 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-/*contact and footer bar*/
+
+/*********************contact and footer bar*/
 footer{
     
 }
 .contact {
     font-size: .9rem;
-/*
-    padding: .5rem;
-    margin: 1rem;
-*/
     text-align: center;
 }
 .footer-bar {

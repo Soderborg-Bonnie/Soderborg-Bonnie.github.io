@@ -18,18 +18,18 @@
     <div id="pageCenter">
         <div class="header">
             <header>
-                <picture>
-                    <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
-                    <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
-                    <img src="images/logo1-75x75.png" alt="Weather Happens logo">
-                </picture>
-
-
-                <div class="headings">
-                    <h1>Weather Happens</h1>
-                    <h2>Serving the Greater Franklin Area</h2>
-                </div>
-            </header>
+            <a href="index.html">
+            <picture>
+                <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                <img src="images/logo1-75x75.png" alt="Weather Happens logo">
+            </picture>
+            </a>
+            <div class="headings">
+                <h1>Weather Happens</h1>
+                <h2>Serving the Greater Franklin Area</h2>
+            </div>
+        </header>
         </div>
 
 
@@ -50,6 +50,7 @@
 
         <main>
             <div id="middle">
+                
                 <figure>
                     <!--                    <picture class="cityPic">-->
                     <source media="(min-width:64em)" srcset="images/pink-flowers-960px.png">
@@ -57,28 +58,25 @@
                     <img src="images/pink-flowers-480px.png" alt="pink flowers">
                     <!--                    </picture>-->
                 </figure>
-
+                
                 <div id="middle2">
                     <div class="current-town">
-                        <h2>Franklin's Weather</h2><br><br>
+                        <h2>Franklin's Weather</h2>
                     </div>
 
                     <section class="weather-summary">
-                        <div class="iconDescription">
-                            <div>
-                                <strong><span id="weatherDescription"></span></strong>
-                            </div>
-                            <figure>
-                                <img src="#" id="weatherimage" alt="weather icon">
-                            </figure>
-
-                        </div>
                         <div class="tempHumidWind">
                             <strong>Current temperature: </strong><span id="currentTemp"></span>&deg;F<br>
                             <strong>Humidity: </strong><span id="humidity"></span>%<br>
                             <strong>Wind Speed: </strong><span id="windSpeed"></span>mph
-                        </div><br><br>
+                        </div>
+                        <div class="iconDescription">
+                            <strong><span id="weatherDescription"></span></strong>
+                            
+                                <img src="#" id="weatherimage" alt="weather icon">
+                            
 
+                        </div>
 
 
                     </section>
