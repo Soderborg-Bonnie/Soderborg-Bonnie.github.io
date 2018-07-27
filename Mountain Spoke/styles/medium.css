@@ -1,0 +1,58 @@
+@media only screen and (min-width:37.5em) {
+    
+    
+    nav ul li {
+        text-align: center;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
