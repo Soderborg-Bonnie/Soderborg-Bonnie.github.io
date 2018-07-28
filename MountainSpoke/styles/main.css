@@ -34,6 +34,9 @@ body {
 a{
     color: white;
 }
+.text a{
+    color: blue;
+}
 #pageCenter {
     max-width: 1024px;
     min-width: 320px;
