@@ -46,22 +46,29 @@ body {
 
 header {
     color: #171C55;
-    /*    font-size: 2rem;*/
+    max-width: 100%;
     background-color: white;
     display: flex;
 
-    /*
+    
+/*
     flex-direction: row;
     justify-content: center;
     align-items: center;
 */
-    /*    padding: 1rem 1.5rem;*/
+
+/*        padding: 1rem 1.5rem;*/
 }
 
 header h1 h2 {
     font-family: 'Cabin Sketch', cursive;
 }
-
+header h1 {
+        font-size: .75rem;
+    }
+    header h2 {
+        font-size: .75rem;
+    }
 header div {
     padding: 0 2rem;
 }
@@ -335,8 +342,8 @@ p {
 
 .mapouter2 {
     text-align: right;
-    height: 500px;
-    width: 600px;
+    max-height: 250px;
+    max-width: 300px;
 }
 
 .mapouter2 img {
@@ -346,23 +353,16 @@ p {
 .gmap_canvas2 {
     overflow: hidden;
     background: none!important;
-    height: 500px;
-    width: 600px;
+    height: 250px;
+    width: 300px;
 }
 
+/*
 #mapText {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /*
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);   
+}
 */
-    /*    padding: 1rem 0rem;*/
-}
-
-#infoText {
-    /*    padding: 0 2rem;*/
-}
 
 #bottomBanner {
     padding: 1rem 0 0 0;

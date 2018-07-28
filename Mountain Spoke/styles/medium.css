@@ -11,44 +11,34 @@
         display: flex;
         justify-content: center;
     }
+    header h1 {
+        font-size: 2rem;
+    }
+    header h2 {
+        font-size: 1rem;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   .mapouter2 {
+    text-align: right;
+    max-height: 400px;
+    max-width: 475px;
+}
+
+.mapouter2 img {
+    padding: 1rem 0;
+}
+
+.gmap_canvas2 {
+    overflow: hidden;
+    background: none!important;
+    height: 400px;
+    width: 475px;
+}
+
+#mapText {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+}    
     
     
     

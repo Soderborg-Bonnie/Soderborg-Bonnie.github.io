@@ -1,32 +1,52 @@
 @media only screen and (min-width: 64em) {
-    
- nav ul li a {
+
+    nav ul li a {
         font-size: 1.5rem;
         padding: 2px;
-    }   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+    header h2 {
+        font-size: 1.2rem;
+    }
+    .mapouter2 {
+        text-align: right;
+        max-height: 500px;
+        max-width: 600px;
+    }
+
+    .mapouter2 img {
+        padding: 1rem 0;
+    }
+
+    .gmap_canvas2 {
+        overflow: hidden;
+        background: none!important;
+        height: 500px;
+        width: 600px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
