@@ -142,9 +142,8 @@ nav ul.hide {
     min-width: 250px;
     padding: 1rem 0;
 }
-.text{
-    
-}
+
+.text {}
 
 #testimonial {
     display: grid;
@@ -159,6 +158,7 @@ nav ul.hide {
     min-width: 250px;
     padding: 1rem 0;
 }
+
 #famTownRide {
     display: grid;
     grid-gap: 20px;
@@ -173,6 +173,7 @@ nav ul.hide {
     min-width: 250px;
     padding: 1rem 0;
 }
+
 #easyRide {
     display: grid;
     grid-gap: 20px;
@@ -186,6 +187,7 @@ nav ul.hide {
     min-width: 250px;
     padding: 1rem 0;
 }
+
 #hardcoreRide {
     display: grid;
     grid-gap: 20px;
@@ -199,13 +201,15 @@ nav ul.hide {
     min-width: 250px;
     padding: 1rem 0;
 }
-#epicRide{
-    display:grid;
+
+#epicRide {
+    display: grid;
     grid-gap: 20px;
-/*    grid-template-columns: repeat(5, 1fr);*/
+    /*    grid-template-columns: repeat(5, 1fr);*/
     grid-template-columns: 50px 100px 100px 50px auto;
     padding: 1rem 0;
 }
+
 .fancy {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
@@ -232,72 +236,80 @@ p {
     justify-content: center;
     align-items: center;
 }
-.sliderText{
+
+.sliderText {
     max-width: 512px;
 }
-.sliderBox{
-	width:600px;
-	margin:40px auto;
-	overflow:auto;
-}
-.slider{
-	width:512px;
-    height:512px;
-/*    border:#666 solid 1px;*/
-    padding:3px;
-	position:relative;
-	overflow:hidden;
-	float:left;
+
+.sliderBox {
+    width: 600px;
+    margin: 40px auto;
+    overflow: auto;
 }
 
-.slider img{
-	display:none;
-	width:512px;
-	height:512px;
+.slider {
+    width: 512px;
+    height: 512px;
+    /*    border:#666 solid 1px;*/
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+    float: left;
 }
 
-.slider img.current{
-	display:inline-block;
-}
-.sliderBox2{
-	width:600px;
-	margin:40px auto;
-	overflow:auto;
-}
-.sliderEpic{
-	width:512px;
-    height:384px;
-    border:#666 solid 1px;
-    padding:3px;
-	position:relative;
-	overflow:hidden;
-	float:left;
+.slider img {
+    display: none;
+    width: 512px;
+    height: 512px;
 }
 
-.sliderEpic img{
-	display:none;
-	width:512px;
-	height:384px;
+.slider img.current {
+    display: inline-block;
 }
 
-.sliderEpic img.current{
-	display:inline-block;
-}
-.previous{
-	position:relative;
-	margin-right:-3rem;
-	z-index:100;
+.sliderBox2 {
+    width: 600px;
+    margin: 40px auto;
+    overflow: auto;
 }
 
-.next{
-	position:relative;
-	margin-left:-3rem;
-	z-index:100;
+.sliderEpic {
+    width: 512px;
+    height: 384px;
+    border: #666 solid 1px;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+    float: left;
 }
-.previous,.next{
-	margin-top:130px;
-    float:left;
-	cursor:pointer;
+
+.sliderEpic img {
+    display: none;
+    width: 512px;
+    height: 384px;
+}
+
+.sliderEpic img.current {
+    display: inline-block;
+}
+
+.previous {
+    position: relative;
+    margin-right: -3rem;
+    z-index: 100;
+}
+
+.next {
+    position: relative;
+    margin-left: -3rem;
+    z-index: 100;
+}
+
+.previous,
+.next {
+    margin-top: 130px;
+    float: left;
+    cursor: pointer;
 }
 
 
@@ -326,9 +338,11 @@ p {
     height: 500px;
     width: 600px;
 }
-.mapouter2 img{
+
+.mapouter2 img {
     padding: 1rem 0;
 }
+
 .gmap_canvas2 {
     overflow: hidden;
     background: none!important;
@@ -339,15 +353,15 @@ p {
 #mapText {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-/*
+    /*
     justify-content: center;
     align-items: center;
 */
-/*    padding: 1rem 0rem;*/
+    /*    padding: 1rem 0rem;*/
 }
 
 #infoText {
-/*    padding: 0 2rem;*/
+    /*    padding: 0 2rem;*/
 }
 
 #bottomBanner {
@@ -428,19 +442,26 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
 #serviceTable {
-/*    display: none;*/
-/*    box-shadow:0 5px 15px rgba(0,0,0,0.3);*/
+    /*    display: none;*/
+    /*    box-shadow:0 5px 15px rgba(0,0,0,0.3);*/
 }
-.repairs, th, td{
+
+.repairs,
+th,
+td {
     border: 3px solid black;
     width: 100%;
 }
-.repairs td, th{
+
+.repairs td,
+th {
     width: 10%;
     text-align: center;
     padding: 1rem 0;
 }
-#leftText{
+
+#leftText {
     text-align: left;
 }
