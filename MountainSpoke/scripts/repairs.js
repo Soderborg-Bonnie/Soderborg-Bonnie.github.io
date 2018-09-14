@@ -1,6 +1,6 @@
 //connection to api
 let repairsRequest = new XMLHttpRequest();
-let apiURL = 'https://soderborg-bonnie.github.io/MountainSpoke/data/repairs.json';
+let apiURL = 'data/repairs.json';
 repairsRequest.open('GET', apiURL, true);
 repairsRequest.send();
 
