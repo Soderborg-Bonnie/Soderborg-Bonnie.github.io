@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Happens | Greater Franklin Area Weather | weather current and forecast | weather stories">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>Weather Happens | Greater Franklin Area Weather | Home Page</title>
+
+</head>
+
+<body>
+    <div id="pageCenter">
+
+        <header>
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                    <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                    <img src="images/logo1-75x75.png" alt="Weather Happens logo">
+                </picture>
+            </a>
+            <div class="headings">
+                <h1>Weather Happens</h1>
+                <h2>Serving the Greater Franklin Area</h2>
+            </div>
+        </header>
+
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+
+            <section class="mainGrid">
+                <article id="headline">
+                    <img src="images/zoo480x320.jpg" alt="Franklin Zoo">
+                    <div class="story"><strong>Wide Eyed Weather</strong><br><br>The Franklin Zoo is full of activity and wonder as the summer warmth continues and visitors abound.
+                    </div>
+                </article>
+            </section>
+
+            <section class="mainGridL">
+                <article class="oddTown">
+
+                    <div class="stuff">
+                        <h3 id="name1"></h3>
+                        <h5 id="motto1"></h5>
+                        <div class="infoStuff">
+                            <strong>Year founded: <span id="founded1"></span></strong><br>
+                            <strong>Population: <span id="population1"></span></strong><br>
+                            <strong>Annual rainfall: <span id="rainfall1"></span>"</strong>
+                        </div>
+                    </div>
+                    <a href="franklin.html">
+                        <img src="images/lacrosse480x320.jpg" alt="hometown lacrosse">
+                    </a>
+                    <div class="current-stuff">
+                        <ul>
+                            <li><span id="events1-1"></span></li>
+                            <li><span id="events1-2"></span></li>
+                            <li><span id="events1-3"></span></li>
+                        </ul>
+                    </div>
+
+                </article>
+
+                <article class="evenTown">
+
+                    <div class="stuff">
+                        <h3 id="name2"></h3>
+                        <h5 id="motto2"></h5>
+                        <div class="infoStuff">
+                            <strong>Year founded: <span id="founded2"></span></strong><br>
+                            <strong>Population: <span id="population2"></span></strong><br>
+                            <strong>Annual rainfall: <span id="rainfall2"></span>"</strong>
+                        </div>
+                    </div>
+                    <a href="greenville.html">
+                            <img src="images/powell480x320.jpg" alt="waverunning the lake">
+                    </a>
+                    <div class="current-stuff">
+                        <ul id="hideMe">
+                            <li><span id="events2-1"></span></li>
+                            <li><span id="events2-2"></span></li>
+                            <li><span id="events2-3"></span></li>
+                        </ul>
+                    </div>
+
+                </article>
+                <article class="oddTown">
+
+                    <div class="stuff">
+                        <h3 id="name3"></h3>
+                        <h5 id="motto3"></h5>
+                        <div class="infoStuff">
+                            <strong>Year founded: <span id="founded3"></span></strong><br>
+                            <strong>Population: <span id="population3"></span></strong><br>
+                            <strong>Annual rainfall: <span id="rainfall3"></span>"</strong>
+                        </div>
+                    </div>
+                    <a href="springfield.html">
+                            <img src="images/hockey480x320.jpg" alt="high school hockey">
+                            </a>
+                    <div class="current-stuff">
+                        <ul>
+                            <li><span id="events3-1"></span></li>
+                            <li><span id="events3-2"></span></li>
+                            <li><span id="events3-3"></span></li>
+                        </ul>
+                    </div>
+
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <section class="contact">
+                <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
+            </section>
+            <section class="footer-bar">
+                <br>&copy;2018 | All Rights Reserved | Weather Happens |
+                <span id="currentdate">Placeholder</span>
+                <h6>Town and weather data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></h6>
+            </section>
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/towndata.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+    </div>
+</body>
+
+</html>

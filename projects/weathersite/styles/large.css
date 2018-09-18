@@ -1,0 +1,145 @@
+@media only screen and (min-width: 64em) {
+    /******************************body*/
+    body {
+        font-size: 1.5rem;
+    }
+
+    /****************************header*/
+    header h1 {
+        font-size: 5rem;
+    }
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    /*******************************nav*/
+    nav {
+        background: #006992;
+        background: -moz-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: -webkit-linear-gradient(top, #006992 0%, #7db9e8 100%);
+        background: linear-gradient(to bottom, #006992 0%, #7db9e8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006992', endColorstr='#7db9e8', GradientType=0);
+    }
+    nav ul li a {
+        font-size: 1.5rem;
+        padding: 2px;
+    }
+
+    /***************************gallery*/
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid figure:hover {
+        box-shadow: .6rem .6rem 3rem rgba(0, 0, 0, 0.7);
+    }
+
+    /****************town story & image*/
+    .bottom-content img {
+        max-width: 600px;
+    }
+
+
+    /*******************weather summary*/
+    section.weather-summary {
+        max-width: 960px;
+        grid-gap: 1rem;
+        margin: 0 auto;
+    }
+
+    /*************************home page*/
+    section.mainGrid article:nth-child(odd) > img {
+        grid-column: 2;
+    }
+
+    section.mainGrid {
+        max-width: 960px;
+        margin: .5rem auto;
+        grid-template-rows: 1fr;
+        background-color: white;
+    }
+    section.mainGrid article {
+        display: grid;
+        max-width: 960px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .25rem;
+        justify-content: center;
+        align-items: center;
+        grid-auto-flow: dense;
+    }
+
+    section.mainGrid img {
+        width: 450px;
+    }
+
+    section.mainGridL,
+    article,
+    .story {
+        font-size: 1.2rem;
+    }
+
+
+    /*****/
+    section.mainGridL {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        grid-template-rows: 1fr;
+        /*        grid-template-columns: 1fr 1fr;*/
+    }
+    section.mainGridL article {
+        /*        display: grid;*/
+        width: 600px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .25rem;
+        justify-content: center;
+        align-items: center;
+        /*        grid-auto-flow: column dense;*/
+        /*        max-width: 100%;*/
+        margin: .5rem auto;
+    }
+    section.mainGridL article:nth-child(even) > img {
+        grid-column: 2;
+    }
+
+    section.mainGridL img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    /***********home page towns, stats, events*/
+    .current-stuff {
+        display: block;
+        color: black;
+        font-size: 1rem;
+    }
+
+    .stuff {
+        text-align: center;
+    }
+    .infoStuff {
+        font-size: .7rem;
+    }
+
+    /*********************weather summary*/
+    #middle {
+        display: block;
+        margin: 0;
+    }
+    main figure {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    main figure img {
+        width: 960px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+}

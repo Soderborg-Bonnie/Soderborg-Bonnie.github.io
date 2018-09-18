@@ -1,0 +1,10 @@
+{
+    "repairs": [
+	chain:"$10",
+	tire:"$10",
+	onceOver:"$25",
+	standard:"$50",
+	deluxe:"$100",
+	overhaul:"$180"
+]
+  }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Happens | Greater Franklin Area Weather | weather current and forecast | weather stories">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>Weather Happens | Greater Franklin Area Weather | Storm Center</title>
+
+</head>
+
+<body>
+    <div id="pageCenter">
+        <div class="header">
+            <header>
+                <a href="index.html">
+                    <picture>
+                        <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logo2-150x150.png">
+                        <source media="(min-width: 64em)" srcset="images/logo3-225x225.png">
+                        <img src="images/logo1-75x75.png" alt="Weather Happens logo">
+                    </picture>
+                </a>
+                <div class="headings">
+                    <h1>Weather Happens</h1>
+                    <h2>Serving the Greater Franklin Area</h2>
+                </div>
+            </header>
+
+
+            <nav>
+
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="franklin.html">Franklin</a></li>
+                    <li><a href="greenville.html">Greenville</a></li>
+                    <li><a href="springfield.html">Springfield</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+
+                </ul>
+            </nav>
+
+
+            <main>
+                <h1 id="storm">Storm Center</h1>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="info">
+                            <label class="top">Full Name*
+                    <input type="text" name="fullname" pattern="[A-Za-z]{5,25}" required></label>
+                        </div>
+                        <div class="info">
+                            <label class="top">Email*
+                    <input type="email" name="email" placeholder="somebody@gmail.com" required></label>
+                        </div>
+                        <div class="info">
+                            <label class="top">Phone
+                    <input type="tel" name="phone" placeholder="8881235555"></label>
+                        </div>
+                        <div class="info">
+                            <label class="top">Zip Code*
+                    <input type="number" name="zip" required></label>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Storm Information</legend>
+
+                        <label class="top">Storm date
+                <input type="date" name="stormDate">
+                </label>
+
+                        <label class="top">Storm type
+                <input type="text" list="type" name="stormType">
+                        <datalist id="type">
+                        <option value="">Please select &#9662;</option>
+                        <option value="Flash Flood">Flash flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricane">Hurricane</option>
+                        <option value="Thunderstorm">Thunderstorm</option>
+                        <option value="Tornado">Tornado</option>
+                        </datalist>
+        </label>
+
+                        <label class="top">Storm severity
+            <input type="range" 
+                    
+                   name="stormRating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		    <span id="ratingValue">5</span><br>
+            </label>
+
+                        <label class="top">Storm region
+            <select name="region">
+            <option selected="selected" disabled="disabled">Select region</option>
+            <option value="Franklin">Franklin</option>
+            <option value="Greenville">Greenville</option>
+            <option value="Springfield">Springville</option>
+            </select>
+        </label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>User in Danger</legend>
+                        <div>Are you in danger?</div>
+                        <label class="sbs"><input type="radio" name="user" value="yes">Yes</label>
+                        <label class="sbs"><input type="radio" name="user" value="no">No</label>
+                        <label class="sbs"><input type="radio" name="user" value="maybe">Maybe</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional information</legend>
+                        <label class="top"><textarea rows="15" cols="40" placeholder="Comments"></textarea></label>
+                    </fieldset>
+
+                    <input type="submit" value="Report the Storm" class="submitBtn">
+
+                </form>
+
+
+
+            </main>
+
+
+            <footer>
+                <section class="contact">
+                    <h3>WeatherHappens.com<br> 22 Green St.<br> Berlem, MG 85497<br> 999-999-999<br>weatherguy@weatherhappens.com</h3>
+                </section>
+                <section class="footer-bar">
+                    <br>&copy;2018 | All Rights Reserved | Weather Happens |
+                    <span id="currentdate">Placeholder</span>
+                    <!--                <h4>___</h4>-->
+                </section>
+            </footer>
+            <script src="scripts/currentdate.js"></script>
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/severity-slider.js"></script>
+            <script src="scripts/wayfinding.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

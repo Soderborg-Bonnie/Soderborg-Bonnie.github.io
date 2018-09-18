@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="Mountain Spoke" content="Mountain Spoke | Bozeman, Montana | all things bike related">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Mountain Spoke | Bozeman, Montana | all things bike related | cycling sales, service, tours, and fun in and around the Bozeman area</title>
+</head>
+
+<body>
+    <div id="pageCenter">
+        <section id="topBanner">
+
+        </section>
+        <header>
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/logoM.jpg">
+                    <source media="(min-width: 64em)" srcset="images/logoL.jpg">
+                    <img src="images/logoS.jpg" alt="Mountain Spoke logo">
+                </picture>
+            </a>
+            <div>
+                <h1>Mountain Spoke</h1>
+                <h2>High Altitude Attitude</h2>
+            </div>
+            <picture>
+                <source media="(min-width: 37.5em) and (max-width: 64em)" srcset="images/portermtb5M.jpg">
+                <source media="(min-width: 64em)" srcset="images/portermtb5.jpg">
+                <img src="images/portermtb5S.jpg" alt="Mountain Spoke logo">
+            </picture>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="mainNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="mapText">
+
+                <div id="infoText">
+                    <h1>Ways to reach us:</h1>
+
+                    <h4>Phone: 555-555-5555</h4>
+                    <h4>Address: 3950 Valley Commons Drive, Bozeman, MT 59718</h4>
+                    <p>Some poor soul will be in the office Monday-Saturday, 8am-8pm, while the rest of us will be out playing.</p>
+
+                    <div id="contactForm">
+                        <form method="get" action="thanks.html">
+                            <fieldset>
+                                <legend>Email Us</legend>
+                                <div class="info">
+                                    <label class="top">Full Name*
+                            <input type="text" name="fullname" pattern="[A-Za-z]{5,22}" required></label>
+                                </div>
+                                <div class="info">
+                                    <label class="top">Email*
+                            <input type="email" name="email" placeholder="somebody@gmail.com" required></label>
+                                </div>
+                                <div class="info">
+                                    <label class="top">Phone
+                            <input type="tel" name="phone" placeholder="8881235555"></label>
+                                </div>
+                                <label class="top"><textarea rows="15" cols="35" placeholder="Comments"></textarea></label>
+                            </fieldset>
+                            <input type="submit" value="submit" class="submitBtn">
+                        </form>
+                    </div>
+                </div>
+                <div class="mapouter2">
+                    <div class="gmap_canvas2"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=3950%20Valley%20Commons%20Drive%2C%20Bozeman%2C%20MT&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
+                    <img src="images/bikeBell.jpg" alt="bike bell">
+                </div>
+
+
+            </section>
+            <div id="bottomBanner">
+
+                <img src="images/portermtb8.jpg" alt="guy on bike with pine trees">
+            </div>
+        </main>
+        <footer>
+            <h5>&copy;2018 | All Rights Reserved | Mountain Spoke | <a href="resources.html">Resources</a> | <a href="video.html">Video</a> </h5>
+
+        </footer>
+    </div>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+</body>
