@@ -19,16 +19,23 @@ body {
 	font-size: 12px;
 }
 header {
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 2fr 3fr;
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
+	/* margin-bottom: 1rem; */
+	top: 0;
+	position: fixed;
+	background-color: white;
+	/* opacity: .85; */
 }
 header img {
 	width: 10rem;
 }
 header h4 {
 	color: red;
+	padding: 1rem;
 }
 nav {
 	display: flex;
@@ -72,7 +79,9 @@ nav button {
 	font-size: 1.6rem;
 	color: black;
 }
-
+main {
+	padding: 10rem 0;
+}
 .full-photo img {
 	width: 100vw;
 	border-top: 5px solid #742067;
