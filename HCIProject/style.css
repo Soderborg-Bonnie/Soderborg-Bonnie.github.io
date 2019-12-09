@@ -51,8 +51,11 @@ nav button {
 	background-color: transparent;
 	border: none;
 	font-size: 1.6rem;
-	color: black;
+	color: #742067;
 }
+nav button:hover {
+	font-weight: 700;
+	font-size: 2rem;
 nav {
 	display: flex;
 	z-index: 1;
